@@ -7,7 +7,7 @@ export default function About() {
         <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
         <div className='mx-auto text-base max-w-prose lg:max-w-none'>
           <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-blue-700 sm:text-4xl'>
-            Vi äger hela kedjan
+            Egen produktion?
           </h2>
         </div>
         <div className='mt-8 lg:grid lg:grid-cols-2 lg:gap-8'>
@@ -77,7 +77,6 @@ export default function About() {
                 semper. Pellentesque in venenatis vestibulum consectetur nibh
                 id.
               </p>
-              <h3 className='text-red-100'>Grabbarna grus i Sverige</h3>
               <p>
                 Tincidunt integer commodo, cursus etiam aliquam neque, et.
                 Consectetur pretium in volutpat, diam. Montes, magna cursus
