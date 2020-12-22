@@ -46,7 +46,7 @@ export default function About() {
               />
             </svg>
             <div className='relative text-base mx-auto max-w-prose lg:max-w-none'>
-              <figure className='aspect-w-12 aspect-h-7 lg:aspect-none'>
+              <figure className='aspect-h-7 lg:aspect-none'>
                 <Image
                   className='rounded-lg shadow-lg object-cover object-center'
                   src='/images/hero-image.jpg'
