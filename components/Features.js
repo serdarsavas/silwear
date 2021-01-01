@@ -36,7 +36,7 @@ export default function Features() {
           />
         </svg>
 
-        <div className='relative lg:grid lg:grid-cols-3 lg:gap-x-8'>
+        <div className='relative lg:grid lg:grid-cols-3 lg:gap-x-20'>
           <div className='lg:col-span-1'>
             <h2 className='text-3xl font-extrabold tracking-tight text-blue-700 sm:text-4xl'>
               En medicinsk mask för vardagen.

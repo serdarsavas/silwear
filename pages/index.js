@@ -15,7 +15,6 @@ export default function Home() {
           <Hero />
         </div>
         <Features />
-        <img src='/images/silwear.svg' alt='' />
       </main>
     </div>
   );

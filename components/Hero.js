@@ -7,7 +7,7 @@ export default function Hero() {
         <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
           <h1 className='text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl'>
             <span className='block text-gray-600 xl:inline'>
-              Masken i silver som
+              Masken med silver som
             </span>
             <span className='block text-blue-700 xl:inline'>
               skyddar dig och andra
