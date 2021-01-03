@@ -6,6 +6,16 @@ import Nav from '../components/Nav';
 import About from '../components/About';
 
 export default function Home() {
+  const aboutRef = useRef();
+
+  const scrollToComponent = ref => {
+    ref.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'start'
+    });
+  };
+
   return (
     <div>
       <Head>
@@ -14,10 +24,10 @@ export default function Home() {
       <main>
         <div className='relative bg-gray-50'>
           <Nav />
-          <Hero />
+          <Hero scrollToComponent={scrollToComponent} reference={aboutRef} />
         </div>
         <Features />
-        <About />
+        <About ref={aboutRef} />
       </main>
     </div>
   );

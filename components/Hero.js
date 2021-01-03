@@ -1,6 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
-export default function Hero() {
+export default function Hero({ scrollToComponent, reference }) {
   return (
     <div className='lg:relative'>
       <div className='mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left'>
@@ -19,21 +20,20 @@ export default function Hero() {
             fugiat aliqua.
           </p>
           <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
-            <div className='rounded-md shadow'>
-              <a
-                href='#'
-                className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-lg md:px-10'
-              >
+            <div
+              onClick={() => scrollToComponent(reference)}
+              className='rounded-md shadow'
+            >
+              <span className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-lg md:px-10 cursor-pointer'>
                 Läs mer
-              </a>
+              </span>
             </div>
             <div className='mt-3 rounded-md shadow sm:mt-0 sm:ml-3'>
-              <a
-                href='#'
-                className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10'
-              >
-                Kontakt
-              </a>
+              <Link href='/kontakt'>
+                <a className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10'>
+                  Kontakt
+                </a>
+              </Link>
             </div>
           </div>
         </div>

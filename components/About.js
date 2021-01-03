@@ -1,13 +1,14 @@
 import Image from 'next/image';
+import { forwardRef } from 'react';
 
-export default function About() {
+const About = forwardRef((props, ref) => {
   return (
-    <div className='bg-white overflow-hidden'>
+    <div ref={ref} className='bg-white overflow-hidden'>
       <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
         <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
         <div className='mx-auto text-base max-w-prose lg:max-w-none'>
           <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-blue-700 sm:text-4xl'>
-            Egen produktion?
+            Varför Silver?
           </h2>
         </div>
         <div className='mt-8 lg:grid lg:grid-cols-2 lg:gap-8'>
@@ -90,4 +91,6 @@ export default function About() {
       </div>
     </div>
   );
-}
+});
+
+export default About;
