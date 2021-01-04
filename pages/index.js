@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Silwear</title>
+        <title>SilverShield</title>
       </Head>
       <main>
         <div className='relative bg-gray-50'>

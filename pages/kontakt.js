@@ -6,7 +6,6 @@ export default function Contact() {
   return (
     <>
       <Nav />
-      <Team />
       <div className='bg-gray-50 h-screen m-0'>
         <ContactForm />
       </div>
