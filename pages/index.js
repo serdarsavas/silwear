@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import Hero from '../components/Hero';
 import Nav from '../components/Nav';
 import About from '../components/About';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const aboutRef = useRef();
@@ -21,13 +22,14 @@ export default function Home() {
       <Head>
         <title>SilverShield</title>
       </Head>
-      <main>
+      <main className='relative'>
         <div className='relative bg-gray-50'>
           <Nav />
           <Hero scrollToComponent={scrollToComponent} reference={aboutRef} />
         </div>
         <Features />
         <About ref={aboutRef} />
+        <Footer color='gray-700' bgColor='gray-50' />
       </main>
     </div>
   );
