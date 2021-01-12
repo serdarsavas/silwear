@@ -1,5 +1,4 @@
 import ContactForm from '../components/ContactForm';
-import Team from '../components/Team';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 

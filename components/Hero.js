@@ -10,7 +10,7 @@ export default function Hero({ scrollToComponent, reference }) {
             <span className='block text-gray-600 xl:inline'>
               Masken med silver som
             </span>
-            <span className='block text-blue-700 xl:inline'>
+            <span className='block text-blue-500 xl:inline'>
               skyddar dig och andra
             </span>
           </h1>
