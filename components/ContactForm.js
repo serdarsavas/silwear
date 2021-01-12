@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { Alert } from './Alert';
 
 export default function ContactForm() {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
-    info: { error: false, msg: null }
+    success: null
   });
 
   const [inputs, setInputs] = useState({
@@ -14,12 +15,14 @@ export default function ContactForm() {
     message: ''
   });
 
-  const handleResponse = (status, msg) => {
+  const [alertIsOpen, setAlertIsOpen] = useState(false);
+
+  const handleResponse = status => {
     if (status === 200) {
       setStatus({
         submitted: true,
         submitting: false,
-        info: { error: false, msg }
+        success: true
       });
       setInputs({
         fName: '',
@@ -27,10 +30,12 @@ export default function ContactForm() {
         email: '',
         message: ''
       });
+      setAlertIsOpen(true);
     } else {
       setStatus({
-        info: { error: true, msg }
+        success: false
       });
+      setAlertIsOpen(true);
     }
   };
 
@@ -43,8 +48,9 @@ export default function ContactForm() {
     setStatus({
       submitted: false,
       submitting: false,
-      info: { error: false, msg: null }
+      success: null
     });
+    setAlertIsOpen(false);
   };
 
   const handleOnSubmit = async e => {
@@ -55,16 +61,28 @@ export default function ContactForm() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(inputs)
     });
-
-    const text = await res.text();
-    handleResponse(res.status, text);
+    handleResponse(res.status);
   };
 
   return (
-    <>
+    <div className='w-3/5 mx-auto'>
+      <div>
+        <h3 className='text-lg leading-6 font-medium text-gray-700'>
+          Vi ser fram emot att höra av dig
+        </h3>
+        <p className='mt-1 text-md text-gray-500'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eos
+          exercitationem aliquam minima commodi blanditiis ad enim natus saepe
+          quibusdam, nulla sit necessitatibus unde non rerum architecto quos
+          dolorem. Incidunt pariatur natus exercitationem fugit magni at sunt
+          cumque corrupti debitis dolorem, excepturi laudantium dolores soluta
+          dolorum inventore quod tempore ratione harum voluptas.
+        </p>
+      </div>
+      <Alert isOpen={alertIsOpen} success={status.success} />
       <form
         onSubmit={handleOnSubmit}
-        className='pt-8 space-y-8 divide-y divide-gray-200 w-3/5 mx-auto'
+        className='pt-8 space-y-8 divide-y divide-gray-200 '
       >
         <div>
           <div className='grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6'>
@@ -144,7 +162,8 @@ export default function ContactForm() {
                 ></textarea>
               </div>
               <p className='mt-2 text-sm text-gray-500'>
-                Här kan du skriva några rader om du har några frågor
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, quidem.
               </p>
             </div>
           </div>
@@ -154,7 +173,7 @@ export default function ContactForm() {
           <div className='flex justify-start'>
             <button
               type='submit'
-              className='ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+              className='ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
               disabled={status.submitting}
             >
               {!status.submitting
@@ -166,8 +185,6 @@ export default function ContactForm() {
           </div>
         </div>
       </form>
-      {status.info.error && <div> Error: {status.info.msg}</div>}
-      {!status.info.error && status.info.msg && <div>{status.info.msg}</div>}
-    </>
+    </div>
   );
 }
