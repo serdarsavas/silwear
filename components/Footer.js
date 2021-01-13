@@ -1,6 +1,6 @@
 export default function Footer({ bgColor, color }) {
   return (
-    <footer className={`mt-4 bg-${bgColor}`}>
+    <footer className={`mt-10 sm:mt-0 bg-${bgColor}`}>
       <div className='flex justify-around space-x-6 py-12'>
         <div className=''>
           <p className={`text-center text-base text-${color}`}>
