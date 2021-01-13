@@ -65,7 +65,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className='w-3/5 mx-auto sm:h-full'>
+    <div className='w-3/5 mx-auto h-full bg-gray-50'>
       <div>
         <h3 className='text-lg leading-6 font-medium text-gray-700'>
           Vi ser fram emot att höra av dig
@@ -80,10 +80,7 @@ export default function ContactForm() {
         </p>
       </div>
       <Alert isOpen={alertIsOpen} success={status.success} />
-      <form
-        onSubmit={handleOnSubmit}
-        className='pt-8 space-y-8 divide-y divide-gray-200 '
-      >
+      <form onSubmit={handleOnSubmit} className='pt-8 space-y-8 divide-y'>
         <div>
           <div className='grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6'>
             <div className='sm:col-span-3'>
@@ -144,28 +141,26 @@ export default function ContactForm() {
             </div>
           </div>
 
-          <div className='mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6'>
-            <div className='sm:col-span-6'>
-              <label
-                htmlFor='message'
-                className='block text-sm font-medium text-gray-700'
-              >
-                Meddelande
-              </label>
-              <div className='mt-1'>
-                <textarea
-                  id='message'
-                  rows='3'
-                  className='shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md'
-                  onChange={handleOnChange}
-                  value={inputs.message}
-                ></textarea>
-              </div>
-              <p className='mt-2 text-sm text-gray-500'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officia, quidem.
-              </p>
+          <div className='mt-6 sm:col-span-6'>
+            <label
+              htmlFor='message'
+              className='block text-sm font-medium text-gray-700'
+            >
+              Meddelande
+            </label>
+            <div className='mt-1'>
+              <textarea
+                id='message'
+                rows='3'
+                className='shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md'
+                onChange={handleOnChange}
+                value={inputs.message}
+              ></textarea>
             </div>
+            <p className='mt-2 text-sm text-gray-500'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              quidem.
+            </p>
           </div>
         </div>
 
@@ -173,7 +168,7 @@ export default function ContactForm() {
           <div className='flex justify-start'>
             <button
               type='submit'
-              className='ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+              className='inline-flex justify-center py-2 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
               disabled={status.submitting}
             >
               {!status.submitting
