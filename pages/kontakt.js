@@ -8,7 +8,7 @@ export default function Contact() {
     <>
       <Nav />
       <Team />
-      <div className='bg-gray-50 h-screen m-0 relative'>
+      <div className='bg-gray-50 h-screen m-0 flex flex-col'>
         <ContactForm />
         <Footer color='gray-600' bgColor='white' />
       </div>

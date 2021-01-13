@@ -65,7 +65,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className='w-3/5 mx-auto'>
+    <div className='w-3/5 mx-auto sm:h-full'>
       <div>
         <h3 className='text-lg leading-6 font-medium text-gray-700'>
           Vi ser fram emot att höra av dig

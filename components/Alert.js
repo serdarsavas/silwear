@@ -27,7 +27,7 @@ export function Alert({ success, isOpen }) {
                 <p>
                   Hör gärna av dig direkt till info@silvershield.se istället.
                 </p>
-                <p>Vi ber så mycket om ursäkt för detta.</p>
+                <p>Vi ber så mycket om ursäkt för besväret.</p>
               </div>
             </div>
           </div>
