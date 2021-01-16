@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import ContactForm from '../components/ContactForm';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
