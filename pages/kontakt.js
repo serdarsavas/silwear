@@ -6,6 +6,9 @@ import Team from '../components/Team';
 export default function Contact() {
   return (
     <>
+      <Head>
+        <title>SilverShield</title>
+      </Head>
       <Nav />
       <Team />
       <div className='bg-gray-50 m-0 flex flex-col gap-8'>

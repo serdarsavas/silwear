@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <>
       <Head>
         <title>SilverShield</title>
       </Head>
@@ -31,6 +31,6 @@ export default function Home() {
         <About ref={aboutRef} />
         <Footer color='gray-700' bgColor='gray-50' />
       </main>
-    </div>
+    </>
   );
 }
