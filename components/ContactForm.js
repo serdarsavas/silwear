@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Alert } from './Alert';
 
 export default function ContactForm() {
@@ -157,9 +158,13 @@ export default function ContactForm() {
                 value={inputs.message}
               ></textarea>
             </div>
-            <p className='mt-2 text-sm text-gray-500'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              quidem.
+            <p className='mt-4 text-sm text-gray-500'>
+              Genom att skicka meddelande till oss hanterar vi dina
+              personuppgifter. Klicka
+              <Link href='/personuppgifter'>
+                <a className='text-blue-700 font-medium'> här </a>
+              </Link>
+              för mer information om hur vi hanterar dina uppgifter.
             </p>
           </div>
         </div>
