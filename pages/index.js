@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Nav from '../components/Nav';
 import About from '../components/About';
 import Footer from '../components/Footer';
+import Cookie from '../components/Cookie';
 
 export default function Home() {
   const aboutRef = useRef();
@@ -29,8 +30,11 @@ export default function Home() {
         </div>
         <Features />
         <About ref={aboutRef} />
-        <Footer color='gray-700' bgColor='gray-50' />
       </main>
+      <div className='relative'>
+        <Footer color='gray-700' bgColor='gray-50' />
+        <Cookie />
+      </div>
     </>
   );
 }

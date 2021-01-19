@@ -6,7 +6,7 @@ export default function Footer({ bgColor, color }) {
       <div className='flex justify-around space-x-6 py-12 items-center'>
         <div className='flex items-center'>
           <div className='ml-2'>
-            <Image src='/logo.png' alt='Logo' width={70} height={80} />
+            <Image src='/logo.png' alt='Logo' width={70} height={86} />
           </div>
           <p className={`text-center text-base text-${color} sm:ml-8 ml-2`}>
             &copy; 2020 <span className='text-blue-600'>SilverShield</span>

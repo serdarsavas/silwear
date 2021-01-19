@@ -10,7 +10,7 @@ export default function Integrity() {
       </Head>
       <Nav />
       <h1 className='text-3xl text-blue-700 text-center py-8'>
-        Integritetspolicy
+        Personuppgiftspolicy
       </h1>
       <Footer color='gray-700' bgColor='gray-50' />
     </>
