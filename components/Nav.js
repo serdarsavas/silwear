@@ -11,7 +11,12 @@ export default function Nav() {
             <div className='sm:ml-6 flex sm:space-x-8'>
               <Link href='/'>
                 <div className='self-center mt-2 mr-6 sm:mr-0 hover:cursor-pointer hover:scale-150'>
-                  <Image src='/logo.png' width={40} height={45} alt='Logo' />
+                  <Image
+                    src='/logo.png'
+                    width={35}
+                    height={43}
+                    alt='Logo of white shield with letters AG'
+                  />
                 </div>
               </Link>
               <NavLink href='/'>
