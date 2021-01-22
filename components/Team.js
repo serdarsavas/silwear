@@ -31,12 +31,12 @@ export default function Team() {
               <div className='space-y-6'>
                 <img
                   className='mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56'
-                  src='images/jeppa.jpeg'
+                  src='images/tony.jpg'
                   alt='Jesper'
                 />
                 <div className='space-y-2'>
                   <div className='text-lg leading-6 font-medium space-y-1'>
-                    <h3>Jesper Nilsson</h3>
+                    <h3>Jesper Handlarsson</h3>
                     <p className='text-blue-700'>CEO</p>
                   </div>
                 </div>
