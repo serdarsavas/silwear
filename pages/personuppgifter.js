@@ -9,7 +9,7 @@ export default function Integrity() {
         <title>SilverShield</title>
       </Head>
       <Nav />
-      <main className='bg-gray-50 border border-t-2 border-gray-200'>
+      <main className='bg-gray-50 border-t-2 border-gray-200 mb-0'>
         <h1 className='text-3xl text-blue-700 text-center py-16'>
           Personuppgiftspolicy
         </h1>
@@ -214,7 +214,7 @@ export default function Integrity() {
           </div>
         </div>
 
-        <div className='max-w-prose mx-auto mt-12 mb-24 px-8'>
+        <div className='max-w-prose mx-auto mt-12 pb-24 px-8'>
           <h3 className='text-2xl text-blue-700'>9. Kakor</h3>
           <div className='mt-8 prose prose-indigo prose-lg text-gray-500'>
             <p>
