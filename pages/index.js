@@ -3,7 +3,7 @@ import Features from '../components/Features';
 import { useRef } from 'react';
 import Hero from '../components/Hero';
 import Nav from '../components/Nav';
-import About from '../components/About';
+import Icons from '../components/Icons';
 import Footer from '../components/Footer';
 import Cookie from '../components/Cookie';
 
@@ -28,8 +28,8 @@ export default function Home() {
           <Nav />
           <Hero scrollToComponent={scrollToComponent} reference={aboutRef} />
         </div>
-        <Features />
-        <About ref={aboutRef} />
+        <Icons />
+        <Features ref={aboutRef} />
       </main>
       <div className='relative'>
         <Footer color='gray-700' bgColor='gray-50' />
