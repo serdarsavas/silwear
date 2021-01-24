@@ -8,7 +8,7 @@ export default function Nav() {
       <div className='mx-auto px-2 sm:px-6 lg:px-8'>
         <div className='flex justify-between h-16'>
           <div className='flex-1 flex items-center justify-center items-stretch sm:justify-start'>
-            <div className='sm:ml-6 flex sm:space-x-8'>
+            <div className='sm:ml-6 flex sm:space-x-8 text-4xl sm:text-lg'>
               <Link href='/'>
                 <div className='self-center mt-2 mr-6 sm:mr-0 hover:cursor-pointer hover:scale-150'>
                   <Image

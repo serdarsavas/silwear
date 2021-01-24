@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Features from '../components/Features';
+import Features2 from '../components/Features2';
 import { useRef } from 'react';
 import Hero from '../components/Hero';
 import Nav from '../components/Nav';
@@ -30,7 +30,7 @@ export default function Home() {
           <Hero scrollToComponent={scrollToComponent} reference={ref} />
         </div>
         <Icons />
-        <Features ref={ref} />
+        <Features2 ref={ref} />
         <CTA />
       </main>
       <div className='relative'>

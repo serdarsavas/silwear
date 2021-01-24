@@ -13,7 +13,7 @@ export default function CTA() {
         </h2>
         <div className='mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5'>
           <Link href='om-oss'>
-            <a className='flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800'>
+            <a className='flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-600 hover:to-blue-800'>
               Om oss
             </a>
           </Link>

@@ -92,8 +92,8 @@ export default function Integrity() {
               <li>att hålla vår hemsida säker och förebygga bedrägerier;</li>
               <li>
                 att bekräfta ditt samtycke av vår hemsidas användarvillkor,
-                inklusive övervakning av privata meddelanden som skickats via
-                vår hemsidas privata meddelandetjänst.
+                inklusive övervakning av den information du lämnar på vår
+                hemsida.
               </li>
             </ul>
             <p>
@@ -129,14 +129,14 @@ export default function Integrity() {
               <li>
                 för att upprätta, utöva eller försvara våra juridiska
                 rättigheter (inklusive att lämna ut information till andra i
-                syfte att förebygga bedrägerier och förminska kreditrisken);
+                syfte att förebygga bedrägerier);
               </li>
               <li>
-                till alla personer som vi rimligen anser att kan begära av
-                domstol eller annan behörig myndighet att vi lämnar ut den
-                personliga informationen om, enligt vår rimliga mening, en sådan
-                domstol eller myndighet rimligen skulle kunna beordra att vi
-                utlämnar den personliga informationen.
+                till alla personer som vi rimligen anser kan begäras av domstol
+                eller annan behörig myndighet att vi lämnar ut den personliga
+                informationen om, enligt vår rimliga mening, en sådan domstol
+                eller myndighet rimligen skulle kunna beordra att vi utlämnar
+                den personliga informationen.
               </li>
             </ul>
             <p>
