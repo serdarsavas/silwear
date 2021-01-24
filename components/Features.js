@@ -49,8 +49,8 @@ const Features = forwardRef((props, ref) => {
                     className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/hero-image.jpg'
                     alt='Whitney leaning against a railing on a downtown street'
-                    width='500'
-                    height='600'
+                    width='600'
+                    height='400'
                   />
                 </figure>
               </div>
@@ -114,8 +114,8 @@ const Features = forwardRef((props, ref) => {
                     className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/hero-image.jpg'
                     alt='Whitney leaning against a railing on a downtown street'
-                    width='500'
-                    height='600'
+                    width='600'
+                    height='400'
                   />
                 </figure>
               </div>
@@ -180,8 +180,8 @@ const Features = forwardRef((props, ref) => {
                     className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/hero-image.jpg'
                     alt='Whitney leaning against a railing on a downtown street'
-                    width='500'
-                    height='600'
+                    width='600'
+                    height='400'
                   />
                 </figure>
               </div>
@@ -246,8 +246,8 @@ const Features = forwardRef((props, ref) => {
                     className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/hero-image.jpg'
                     alt='Whitney leaning against a railing on a downtown street'
-                    width='500'
-                    height='600'
+                    width='600'
+                    height='400'
                   />
                 </figure>
               </div>
