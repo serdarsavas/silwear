@@ -1,74 +1,267 @@
 import Image from 'next/image';
+import { forwardRef } from 'react';
 
-export default function Features() {
+const Features = forwardRef((props, ref) => {
   return (
     <>
-      <div className='bg-white'>
-        <div className='relative mt-20'>
-          <div className='lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start'>
-            <div className='relative sm:py-16 lg:py-0'>
-              <div
+      <div ref={ref} className='bg-white overflow-hidden'>
+        <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+          <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
+          <div className='mx-auto text-base lg:max-w-none'></div>
+          <div className='mt-8 flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-8'>
+            <div className='relative lg:row-start-1 lg:col-start-2'>
+              <svg
+                className='hidden lg:block absolute top-0 right-0 -mt-20 -mr-20'
+                width='404'
+                height='384'
+                fill='none'
+                viewBox='0 0 404 384'
                 aria-hidden='true'
-                className='hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen'
               >
-                <div className='absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72'></div>
-                <svg
-                  className='absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12'
-                  width='404'
-                  height='392'
-                  fill='none'
-                  viewBox='0 0 404 392'
-                >
-                  <defs>
-                    <pattern
-                      id='02f20b47-fd69-4224-a62a-4c9de5c763f7'
+                <defs>
+                  <pattern
+                    id='de316486-4a29-4312-bdfc-fbce2132a2c1'
+                    x='0'
+                    y='0'
+                    width='20'
+                    height='20'
+                    patternUnits='userSpaceOnUse'
+                  >
+                    <rect
                       x='0'
                       y='0'
-                      width='20'
-                      height='20'
-                      patternUnits='userSpaceOnUse'
-                    >
-                      <rect
-                        x='0'
-                        y='0'
-                        width='4'
-                        height='4'
-                        className='text-gray-200'
-                        fill='currentColor'
-                      />
-                    </pattern>
-                  </defs>
-                  <rect
-                    width='404'
-                    height='392'
-                    fill='url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)'
-                  />
-                </svg>
-              </div>
-              <div className='relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20'>
-                <div className='relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden'>
+                      width='4'
+                      height='4'
+                      className='text-gray-200'
+                      fill='currentColor'
+                    />
+                  </pattern>
+                </defs>
+                <rect
+                  width='404'
+                  height='384'
+                  fill='url(#de316486-4a29-4312-bdfc-fbce2132a2c1)'
+                />
+              </svg>
+              <div className='relative text-base mx-auto lg:max-w-none'>
+                <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
-                    className='absolute inset-0 h-full w-full object-cover'
+                    className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/hero-image.jpg'
-                    alt=''
-                    layout='fill'
+                    alt='Whitney leaning against a railing on a downtown street'
+                    width='500'
+                    height='600'
                   />
-                </div>
+                </figure>
               </div>
             </div>
-
-            <div className='relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0'>
-              <div className='pt-12 sm:pt-16 lg:pt-20'>
-                <h2 className='text-3xl text-blue-700 font-bold tracking-tight sm:text-4xl'>
-                  En rubrik
+            <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
+              <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-blue-700 sm:text-4xl text-center lg:text-left'>
+                  High Quality Material
                 </h2>
-                <div className='mt-6 text-gray-500 space-y-6'>
-                  <p className='text-lg'>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                    Blandit amet, sed aenean erat arcu morbi.
-                  </p>
-                </div>
+                <p className='text-gray-500 mt-4 text-xl'>
+                  Breathable, comfortable, and soft to the skin.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-white overflow-hidden'>
+        <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+          <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
+          <div className='mx-auto text-base lg:max-w-none'></div>
+          <div className='mt-8 flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-8'>
+            <div className='relative lg:row-start-1 lg:col-start-2'>
+              <svg
+                className='hidden lg:block absolute top-0 right-0 -mt-20 -mr-20'
+                width='404'
+                height='384'
+                fill='none'
+                viewBox='0 0 404 384'
+                aria-hidden='true'
+              >
+                <defs>
+                  <pattern
+                    id='de316486-4a29-4312-bdfc-fbce2132a2c1'
+                    x='0'
+                    y='0'
+                    width='20'
+                    height='20'
+                    patternUnits='userSpaceOnUse'
+                  >
+                    <rect
+                      x='0'
+                      y='0'
+                      width='4'
+                      height='4'
+                      className='text-gray-200'
+                      fill='currentColor'
+                    />
+                  </pattern>
+                </defs>
+                <rect
+                  width='404'
+                  height='384'
+                  fill='url(#de316486-4a29-4312-bdfc-fbce2132a2c1)'
+                />
+              </svg>
+              <div className='relative text-base mx-auto lg:max-w-none'>
+                <figure className='aspect-h-7 lg:aspect-none'>
+                  <Image
+                    className='rounded-lg shadow-lg object-cover object-center'
+                    src='/images/hero-image.jpg'
+                    alt='Whitney leaning against a railing on a downtown street'
+                    width='500'
+                    height='600'
+                  />
+                </figure>
+              </div>
+            </div>
+            <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
+              <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-blue-700 sm:text-4xl text-center lg:text-left'>
+                  One Size
+                </h2>
+                <p className='text-gray-500 mt-4 text-xl'>
+                  Depending on the head circumference, the length of the ear
+                  loops can be adjusted with sliding regulators.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-white overflow-hidden'>
+        <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+          <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
+          <div className='mx-auto text-base lg:max-w-none'></div>
+          <div className='mt-8 flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-8'>
+            <div className='relative lg:row-start-1 lg:col-start-2'>
+              <svg
+                className='hidden lg:block absolute top-0 right-0 -mt-20 -mr-20'
+                width='404'
+                height='384'
+                fill='none'
+                viewBox='0 0 404 384'
+                aria-hidden='true'
+              >
+                <defs>
+                  <pattern
+                    id='de316486-4a29-4312-bdfc-fbce2132a2c1'
+                    x='0'
+                    y='0'
+                    width='20'
+                    height='20'
+                    patternUnits='userSpaceOnUse'
+                  >
+                    <rect
+                      x='0'
+                      y='0'
+                      width='4'
+                      height='4'
+                      className='text-gray-200'
+                      fill='currentColor'
+                    />
+                  </pattern>
+                </defs>
+                <rect
+                  width='404'
+                  height='384'
+                  fill='url(#de316486-4a29-4312-bdfc-fbce2132a2c1)'
+                />
+              </svg>
+              <div className='relative text-base mx-auto lg:max-w-none'>
+                <figure className='aspect-h-7 lg:aspect-none'>
+                  <Image
+                    className='rounded-lg shadow-lg object-cover object-center'
+                    src='/images/hero-image.jpg'
+                    alt='Whitney leaning against a railing on a downtown street'
+                    width='500'
+                    height='600'
+                  />
+                </figure>
+              </div>
+            </div>
+            <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
+              <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-blue-700 sm:text-4xl text-center lg:text-left'>
+                  Dual Adjuster
+                </h2>
+                <p className='text-gray-500 mt-4 text-xl'>
+                  Allowing to adjust the top and bottom of the mask seperately
+                  for a perfect custom fit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-white overflow-hidden'>
+        <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+          <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
+          <div className='mx-auto text-base lg:max-w-none'></div>
+          <div className='mt-8 flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-8'>
+            <div className='relative lg:row-start-1 lg:col-start-2'>
+              <svg
+                className='hidden lg:block absolute top-0 right-0 -mt-20 -mr-20'
+                width='404'
+                height='384'
+                fill='none'
+                viewBox='0 0 404 384'
+                aria-hidden='true'
+              >
+                <defs>
+                  <pattern
+                    id='de316486-4a29-4312-bdfc-fbce2132a2c1'
+                    x='0'
+                    y='0'
+                    width='20'
+                    height='20'
+                    patternUnits='userSpaceOnUse'
+                  >
+                    <rect
+                      x='0'
+                      y='0'
+                      width='4'
+                      height='4'
+                      className='text-gray-200'
+                      fill='currentColor'
+                    />
+                  </pattern>
+                </defs>
+                <rect
+                  width='404'
+                  height='384'
+                  fill='url(#de316486-4a29-4312-bdfc-fbce2132a2c1)'
+                />
+              </svg>
+              <div className='relative text-base mx-auto lg:max-w-none'>
+                <figure className='aspect-h-7 lg:aspect-none'>
+                  <Image
+                    className='rounded-lg shadow-lg object-cover object-center'
+                    src='/images/hero-image.jpg'
+                    alt='Whitney leaning against a railing on a downtown street'
+                    width='500'
+                    height='600'
+                  />
+                </figure>
+              </div>
+            </div>
+            <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
+              <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-blue-700 sm:text-4xl text-center lg:text-left'>
+                  Sustainability
+                </h2>
+                <p className='text-gray-500 mt-4 text-xl'>
+                  Investing in a quality washable face mask instead of
+                  disposable ones helps reduce waste. Our product can be washed
+                  up to 60 times.
+                </p>
               </div>
             </div>
           </div>
@@ -76,4 +269,6 @@ export default function Features() {
       </div>
     </>
   );
-}
+});
+
+export default Features;

@@ -37,7 +37,7 @@ export default function Icons() {
                       </svg>
                     </span>
                   </div>
-                  <h3 className='mt-8 text-lg font-medium text-gray-900 tracking-tight'>
+                  <h3 className='mt-8 text-lg font-medium text-gray-600 tracking-tight'>
                     Skyddar
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
@@ -70,7 +70,7 @@ export default function Icons() {
                       </svg>
                     </span>
                   </div>
-                  <h3 className='mt-8 text-lg font-medium text-gray-900 tracking-tight'>
+                  <h3 className='mt-8 text-lg font-medium text-gray-600 tracking-tight'>
                     Bekväm
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
@@ -116,7 +116,7 @@ export default function Icons() {
                       </svg>
                     </span>
                   </div>
-                  <h3 className='mt-8 text-lg font-medium text-gray-900 tracking-tight'>
+                  <h3 className='mt-8 text-lg font-medium text-gray-600 tracking-tight'>
                     Hållbar och ekonomisk
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>

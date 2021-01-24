@@ -20,7 +20,10 @@ export default function Nav() {
                 </div>
               </Link>
               <NavLink href='/'>
-                <a>Hem</a>
+                <a>Produkt</a>
+              </NavLink>
+              <NavLink href='/om-oss'>
+                <a>Om Oss</a>
               </NavLink>
               <NavLink href='/kontakt'>
                 <a>Kontakt</a>

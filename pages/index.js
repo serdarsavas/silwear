@@ -6,9 +6,10 @@ import Nav from '../components/Nav';
 import Icons from '../components/Icons';
 import Footer from '../components/Footer';
 import Cookie from '../components/Cookie';
+import CTA from '../components/CTA';
 
 export default function Home() {
-  const aboutRef = useRef();
+  const ref = useRef();
 
   const scrollToComponent = ref => {
     ref.current.scrollIntoView({
@@ -26,10 +27,11 @@ export default function Home() {
       <main className='relative'>
         <div className='relative bg-gray-50'>
           <Nav />
-          <Hero scrollToComponent={scrollToComponent} reference={aboutRef} />
+          <Hero scrollToComponent={scrollToComponent} reference={ref} />
         </div>
         <Icons />
-        <Features ref={aboutRef} />
+        <Features ref={ref} />
+        <CTA />
       </main>
       <div className='relative'>
         <Footer color='gray-700' bgColor='gray-50' />
