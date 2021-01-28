@@ -66,7 +66,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className='w-3/5 mx-auto h-full bg-gray-50'>
+    <div className='w-3/5 mx-auto h-full'>
       <div>
         <h3 className='text-lg leading-6 font-medium text-gray-700'>
           Vi ser fram emot att höra av dig
@@ -81,7 +81,7 @@ export default function ContactForm() {
         </p>
       </div>
       <Alert isOpen={alertIsOpen} success={status.success} />
-      <form onSubmit={handleOnSubmit} className='pt-8 space-y-8 divide-y'>
+      <form onSubmit={handleOnSubmit} className='pt-8 space-y-8 divide-y mb-16'>
         <div>
           <div className='grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6'>
             <div className='sm:col-span-3'>
@@ -173,7 +173,7 @@ export default function ContactForm() {
           <div className='flex justify-start'>
             <button
               type='submit'
-              className='inline-flex justify-center py-2 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+              className='inline-flex justify-center py-3 px-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
               disabled={status.submitting}
             >
               {!status.submitting

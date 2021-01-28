@@ -4,11 +4,17 @@ export default function CTA() {
   return (
     <div className='bg-white'>
       <div className='max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between'>
-        <h2 className='text-4xl font-extrabold tracking-tight text-blue-700 sm:text-4xl'>
+        <h2 className='text-4xl font-extrabold tracking-tight text-gray-800 sm:text-4xl'>
           <span className='block'>Vill du veta mer?</span>
-          <span className='text-gray-600 block bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent'>
-            Läs mer under <span className='text-blue-700'>Om Oss</span> eller
-            hör av dig.
+          <span className='block bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent'>
+            Läs mer under{' '}
+            <Link href='om-oss'>
+              <a className='text-blue-700'>Om Oss</a>
+            </Link>{' '}
+            eller{' '}
+            <Link href='kontakt'>
+              <a className='text-blue-700'>hör av dig.</a>
+            </Link>
           </span>
         </h2>
         <div className='mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5'>

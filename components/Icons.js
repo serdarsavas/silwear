@@ -5,7 +5,7 @@ export default function Icons() {
         <h2 className='text-base font-semibold tracking-wider text-blue-600 uppercase'>
           Egenskaper
         </h2>
-        <p className='mt-2 text-3xl font-extrabold text-gray-600 tracking-tight sm:text-4xl'>
+        <p className='mt-2 text-3xl font-extrabold text-gray-800 tracking-tight sm:text-4xl'>
           Våra tre pelare
         </p>
         <p className='mt-5 max-w-prose mx-auto text-xl text-gray-500'>
@@ -37,7 +37,7 @@ export default function Icons() {
                       </svg>
                     </span>
                   </div>
-                  <h3 className='mt-8 text-lg font-medium text-gray-600 tracking-tight'>
+                  <h3 className='mt-8 text-lg font-medium text-gray-800 tracking-tight'>
                     Skyddar
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
@@ -70,7 +70,7 @@ export default function Icons() {
                       </svg>
                     </span>
                   </div>
-                  <h3 className='mt-8 text-lg font-medium text-gray-600 tracking-tight'>
+                  <h3 className='mt-8 text-lg font-medium text-gray-800 tracking-tight'>
                     Bekväm
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
@@ -116,7 +116,7 @@ export default function Icons() {
                       </svg>
                     </span>
                   </div>
-                  <h3 className='mt-8 text-lg font-medium text-gray-600 tracking-tight'>
+                  <h3 className='mt-8 text-lg font-medium text-gray-800 tracking-tight'>
                     Hållbar och ekonomisk
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>

@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export default function Hero({ scrollToComponent, reference }) {
   return (
-    <div className='lg:relative'>
+    <div className='lg:relative bg-gray-50'>
       <div className='mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left'>
         <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
           <h1 className='text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl'>
-            <span className='block text-gray-500 xl:inline'>
+            <span className='block text-gray-400 xl:inline'>
               Masken med silver
             </span>
             <span className='block text-blue-700 xl:inline'>

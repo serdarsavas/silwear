@@ -58,10 +58,13 @@ const Features = forwardRef((props, ref) => {
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
                 <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-blue-700 sm:text-4xl text-center lg:text-left'>
-                  High Quality Material
+                  SilverShield
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
-                  Breathable, comfortable, and soft to the skin.
+                  Our masks contain silver threads and have been tested against
+                  bacteria and virus successfully. Our product is from
+                  high-quality textile that is breathable, comfortable and soft
+                  to the skin.
                 </p>
               </div>
             </div>
