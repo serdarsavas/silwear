@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Footer from '../components/Footer';
-import Nav from '../components/Nav';
+import Header from '../components/Header';
 
 export default function Integrity() {
   return (
@@ -8,7 +8,7 @@ export default function Integrity() {
       <Head>
         <title>SilverShield</title>
       </Head>
-      <Nav />
+      <Header />
       <main className='bg-gray-50 border-t-2 border-gray-200 mb-0'>
         <h1 className='text-3xl text-blue-700 text-center py-16'>
           Personuppgiftspolicy
