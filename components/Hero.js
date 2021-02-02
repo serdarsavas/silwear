@@ -7,11 +7,11 @@ export default function Hero({ scrollToComponent, reference }) {
       <div className='mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left'>
         <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
           <h1 className='text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl'>
-            <span className='block text-gray-500 xl:inline'>
-              Masken med silver
+            <span className='block text-gray-800 xl:inline'>
+              En medicinsk mask för vardagen
             </span>
             <span className='block text-blue-700 xl:inline'>
-              som skyddar dig och andra
+              som skyddar på riktigt
             </span>
           </h1>
           <p className='mt-3 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-5 md:max-w-3xl'>
