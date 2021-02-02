@@ -94,19 +94,6 @@ export default function Icons() {
                           d='M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
                         />
                       </svg>
-                      <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        fill='none'
-                        viewBox='0 0 24 24'
-                        stroke='currentColor'
-                      >
-                        <path
-                          strokeLinecap='round'
-                          strokeLinejoin='round'
-                          strokeWidth='2'
-                          d='M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z'
-                        />
-                      </svg>
                     </span>
                   </div>
                   <h3 className='mt-8 text-lg font-medium text-gray-800 tracking-tight'>
