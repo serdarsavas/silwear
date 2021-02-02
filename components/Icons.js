@@ -2,17 +2,10 @@ export default function Icons() {
   return (
     <div className='relative bg-white py-16 sm:py-24 lg:py-32'>
       <div className='mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl'>
-        <h2 className='text-base font-semibold tracking-wider text-blue-600 uppercase'>
+        <h2 className='text-base font-semibold tracking-wider text-blue-700 uppercase'>
           Egenskaper
         </h2>
-        <p className='mt-2 text-3xl font-extrabold text-gray-800 tracking-tight sm:text-4xl'>
-          Våra tre pelare
-        </p>
-        <p className='mt-5 max-w-prose mx-auto text-xl text-gray-500'>
-          Phasellus lorem quam molestie id quisque diam aenean nulla in.
-          Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-          condimentum id viverra nulla.
-        </p>
+
         <div className='mt-12'>
           <div className='grid grid-cols-1 gap-8 sm:grid-cols-1 lg:grid-cols-3'>
             <div className='pt-6'>
@@ -41,8 +34,8 @@ export default function Icons() {
                     Skyddar
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    Tyget har i laboratorietester bekräftats skydda mot virus
+                    och bakterier med upp till 99%
                   </p>
                 </div>
               </div>
@@ -74,8 +67,8 @@ export default function Icons() {
                     Bekväm
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    Tillverkad i mjukt polyestertyg vilket gör den skön att bära
+                    och behaglig att andas genom
                   </p>
                 </div>
               </div>
@@ -120,8 +113,8 @@ export default function Icons() {
                     Hållbar och ekonomisk
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    Håller länge då den är tvättbar. Kan tvättas upp till 60
+                    gånger.
                   </p>
                 </div>
               </div>

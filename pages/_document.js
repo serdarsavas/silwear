@@ -4,7 +4,7 @@ import { GA_TRACKING_ID } from '../lib/gtag';
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang='sv'>
         <Head>
           <script
             async
@@ -22,6 +22,7 @@ export default class MyDocument extends Document {
           `
             }}
           />
+          <title>SilverShield</title>
         </Head>
         <body>
           <Main />

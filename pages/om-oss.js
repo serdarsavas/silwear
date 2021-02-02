@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -119,76 +121,95 @@ export default function Contact() {
             <div className='text-lg max-w-prose mx-auto'>
               <h1>
                 <span className='block text-base text-center text-blue-700 font-semibold tracking-wide uppercase'>
-                  SilverShield Masks
+                  SilverShield
                 </span>
                 <span className='mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
-                  OUR STORY
+                  Om vårt företag
                 </span>
               </h1>
               <p className='mt-8 text-xl text-gray-500 leading-8'>
-                We founded Silvershield with the idea to create products that
-                are comfortable, bacteria filtration efficient and sustainable.
-                Our mission is to provide a high-quality product that is good
-                for our customer but also is environmentally friendly. Our masks
-                are designed with silver thread which properties have been
-                tested in a laboratory against bacteria successfully.
+                Vi startade Silvershield med idén att skapa en produkt som
+                skyddar, är bekväm och hållbar. Vår ambition är att
+                tillhandahålla en högkvalitativ produkt för våra kunder som
+                också är miljövänlig. Våra masker innehåller silver vars
+                egenskaper framgångsrikt har testats i laboratorier mot
+                bakterier och virus.
               </p>
             </div>
             <div className='mt-6 prose prose-lg text-gray-500 mx-auto'>
               <h2 className='text-xlfont-semibold'>
-                Comfort, Bacteria Filtration, and Sustainability
+                Skyddar, bekväm, hållbar och ekonomisk
               </h2>
               <p>
-                The three pillars of Silvershield are comfort, protection and
-                sustainability. One of our focuses with Silvershield masks is
-                <strong> comfort</strong>, because we want our customers to wear
-                a quality product that protects but also feels great.
+                De tre pelarna i Silvershield är att den: Skyddar, är bekväm och
+                hållbar.
+              </p>
+              <p>
+                Vårt fokus med Silvershield-maskerna är <strong> skydd</strong>.
+                Våra masker har genomgått tester utförda av EU-ackrediterade
+                laboratorier. Dessa tester ligger till grund för maskens
+                CE-certifiering som intygar att det är en antiviral och
+                antibakteriell medicinsk ansiktsmask.
+              </p>
+              <p>
+                <strong>Komfort</strong> är den andra av våra pelare, eftersom
+                vi vill att våra kunder ska ha en kvalitetsprodukt som skyddar
+                men också känns bekväm.
+              </p>
+              <p>
+                Den tredje pelaren är <strong>hållbarhet</strong>. Våra masker
+                kan återanvändas och tvättas upp till 60 gånger. Det är viktigt
+                att överväga att engångsmasker endast kan bäras en (1) gång och
+                detta avfall bidrar tyvärr en belastning på miljön.
+                Återanvändbara masker är också ekonomiskt för konsumenten på
+                lång sikt.
               </p>
 
-              <p>
-                <strong>Bacteria</strong> Filtration is the second of our
-                pillars. The Silver thread in our mask offers a natural
-                antibacterial effect. Our cloth masks ”Silvershield” have gone
-                through tests performed by{' '}
-                <strong>NANObiz R&D Laboratory and Ekoteks laboratory</strong>.
-                The conclusion of the assessment of antiviral and antibacterial
-                properties in Silvershield masks was 99.99% effective.
-              </p>
-              <p>
-                Last, <strong>sustainability</strong>. Our masks are reusable
-                and washable up to 60 times. It is important to consider
-                disposable masks can be worn one (1) time only and this
-                unfortunately represents a potential environmental hazard.
-              </p>
               <figure>
-                <img
+                <Image
                   className='w-full rounded-lg'
                   src='/images/hero-image.jpg'
-                  alt=''
-                  width='1310'
-                  height='873'
+                  alt='Bild på fabrik'
+                  width={1310}
+                  height={873}
                 />
                 <figcaption>
-                  Sagittis scelerisque nulla cursus in enim consectetur quam.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur, quia!
                 </figcaption>
               </figure>
-              <h2>Why Silver</h2>
+              <h2>Varför innehåller maskerna silver?</h2>
               <p>
-                Historically, Silver has widely been used for its antibacterial
-                properties. Since Roman times silver has been used for its
-                antimicrobial, antibacterial action. Some researchers have
-                demonstrated silver properties against a range of bacterias,
-                fungi and in addition a number of studies have suggested the
-                action of silver against a number of viruses.
+                Historiskt sett har silver i stor utsträckning använts för sina
+                antibakteriella egenskaper. Sedan romartiden har silver använts
+                för sin antimikrobiella, antibakteriella verkan.Forskare har i
+                studier påvisat att silver skyddar mot en rad bakterier, svampar
+                och dessutom har det i ett antal av dessa föreslagits att silver
+                kan verka mot ett antal virus.
               </p>
-
               <p>
-                The Silver thread on the mask has been tested and proven to be
-                effective against bacteria, certain viruses and is known for its
-                antimicrobial properties. The bactericida of silver is well
-                documented.
+                Denna gamla visdom har vi tagit fasta på och testat i en modern
+                kontext. SilverShield har i rigorösa tester av EU-ackrediterade
+                laboratorier och visat sig vara effektiv mot virus och
+                bakterier.
               </p>
             </div>
+          </div>
+        </div>
+
+        <div className='max-w-prose mx-auto py-16 px-6 sm:py-24 lg:px-8 flex items-baseline justify-between gap-8'>
+          <span className='text-3xl font-extrabold tracking-tight text-gray-800 sm:text-4xl'>
+            Vill du veta mer?
+            <Link href='kontakt'>
+              <a className='text-blue-700 block'> Kontakta oss gärna.</a>
+            </Link>
+          </span>
+          <div className='mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5'>
+            <Link href='kontakt'>
+              <a className='px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-700 bg-gray-50 hover:bg-gray-100'>
+                Kontakt
+              </a>
+            </Link>
           </div>
         </div>
       </main>
