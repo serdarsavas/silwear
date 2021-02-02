@@ -68,7 +68,7 @@ const Features = forwardRef((props, ref) => {
             </div>
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
-                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 lg:text-4xl text-center lg:text-left'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 lg:text-4xl text-center lg:text-left'>
                   Testad
                 </h2>
                 <p className='text-gray-500 mt-4 text-lg'>
@@ -154,7 +154,7 @@ const Features = forwardRef((props, ref) => {
             </div>
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
-                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 lg:text-4xl text-center lg:text-left'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 lg:text-4xl text-center lg:text-left'>
                   Komfort
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
@@ -222,7 +222,7 @@ const Features = forwardRef((props, ref) => {
             </div>
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
-                <h2 className='mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl text-center lg:text-left'>
+                <h2 className='mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-4xl text-center lg:text-left'>
                   Hållbar och ekonomisk
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
