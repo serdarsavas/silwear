@@ -35,7 +35,7 @@ export default function Icons() {
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
                     Tyget har i laboratorietester bekräftats skydda mot virus
-                    och bakterier med upp till 99%
+                    och bakterier med upp till 99%.
                   </p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ export default function Icons() {
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
                     Tillverkad i mjukt polyestertyg vilket gör den skön att bära
-                    och behaglig att andas genom
+                    och behaglig att andas genom.
                   </p>
                 </div>
               </div>

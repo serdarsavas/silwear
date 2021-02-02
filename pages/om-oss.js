@@ -148,8 +148,8 @@ export default function Contact() {
                 Vårt fokus med Silvershield-maskerna är <strong> skydd</strong>.
                 Våra masker har genomgått tester utförda av EU-ackrediterade
                 laboratorier. Dessa tester ligger till grund för maskens
-                CE-certifiering som intygar att det är en antiviral och
-                antibakteriell medicinsk ansiktsmask.
+                CE-certifiering som intygar att det är en medicinsk ansiktsmask
+                som effektivt skyddar mot virus och bakterier.
               </p>
               <p>
                 <strong>Komfort</strong> är den andra av våra pelare, eftersom
@@ -160,9 +160,8 @@ export default function Contact() {
                 Den tredje pelaren är <strong>hållbarhet</strong>. Våra masker
                 kan återanvändas och tvättas upp till 60 gånger. Det är viktigt
                 att överväga att engångsmasker endast kan bäras en (1) gång och
-                detta avfall bidrar tyvärr en belastning på miljön.
-                Återanvändbara masker är också ekonomiskt för konsumenten på
-                lång sikt.
+                dess avfall bidrar till en belastning på miljön. Återanvändbara
+                masker är också ekonomiskt för konsumenten på lång sikt.
               </p>
 
               <figure>
@@ -188,9 +187,9 @@ export default function Contact() {
                 kan verka mot ett antal virus.
               </p>
               <p>
-                Denna gamla visdom har vi tagit fasta på och testat i en modern
-                kontext. SilverShield har i rigorösa tester av EU-ackrediterade
-                laboratorier och visat sig vara effektiv mot virus och
+                Denna uråldriga kunskap har vi tagit fasta på och testat i en
+                modern kontext. Genom rigorösa tester av EU-ackrediterade
+                laboratorier har vår mask visat sig vara effektiv mot virus och
                 bakterier.
               </p>
             </div>

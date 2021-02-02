@@ -6,17 +6,14 @@ export default function Hero({ scrollToComponent, reference }) {
     <div className='lg:relative bg-gray-50'>
       <div className='mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left'>
         <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
-          <h1 className='text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl'>
-            <span className='block text-gray-800 xl:inline'>
-              En medicinsk mask för vardagen
-            </span>
-            <span className='block text-blue-700 xl:inline'>
-              som skyddar på riktigt
+          <h1 className='text-4xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl'>
+            <span className='block text-gray-700'>
+              <span className='text-blue-700'>SilverShield</span> - en medicinsk
+              mask för vardagen
             </span>
           </h1>
           <p className='mt-3 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-5 md:max-w-3xl'>
-            CE-märkt med cerifiering för effektivt skydd mot virus och
-            bakterier.
+            CE-cerifierad för effektivt skydd mot virus och bakterier.
           </p>
           <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
             <div

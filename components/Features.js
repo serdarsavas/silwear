@@ -92,8 +92,8 @@ const Features = forwardRef((props, ref) => {
                   hur väl materialet skyddar mot olika mikrober. Vår mask visade
                   i detta test på ett skydd mot bakterier med ca 91%. ISO 18148
                   undersöker å sin sida hur väl ett tyg skyddar mot virus. I
-                  detta test visade sig vår mask vara bäst i klassen med ett
-                  skydd på 99%.
+                  detta test visade sig vår mask vara bäst i sin klass med ett
+                  skydd på 99.9%.
                 </p>
               </div>
             </div>
@@ -158,10 +158,10 @@ const Features = forwardRef((props, ref) => {
                   Komfort
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
-                  Mjukt tyg som är behaglig att andas genom och skön att bära.
-                  De justerbara öronöglorna gör det möjligt att justera övre och
-                  nedre delen av masken separat för en perfekt anpassad
-                  passform.
+                  Tillverkad av ett mjukt tyg som är behaglig att andas genom
+                  och skön att bära. De justerbara öronöglorna gör det möjligt
+                  att justera övre och nedre delen av masken separat för en
+                  perfekt anpassad passform.
                 </p>
               </div>
             </div>
