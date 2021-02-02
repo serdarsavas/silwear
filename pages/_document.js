@@ -22,7 +22,6 @@ export default class MyDocument extends Document {
           `
             }}
           />
-          <title>SilverShield</title>
         </Head>
         <body>
           <Main />

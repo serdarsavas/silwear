@@ -6,12 +6,12 @@ const Features = forwardRef((props, ref) => {
     <>
       <div ref={ref} className='bg-white overflow-hidden'>
         <div className='text-lg max-w-prose mx-auto pb-16 sm:pb-24 px-6'>
-          <h2 className='mt-2 text-3xl font-extrabold text-blue-700  tracking-tight text-center sm:text-4xl'>
+          <h2 className='mt-2 text-4xl font-extrabold text-blue-700  tracking-tight text-center'>
             Silvershield
           </h2>
           <p className='text-xl text-gray-500 leading-8 mt-8'>
             Våra masker innehåller silvertrådar som framgångsrikt har påvisats
-            skydda mot mot virus och bakterier. Vår produkt är av högkvalitativ
+            skydda mot virus och bakterier. Vår produkt är av högkvalitativ
             textil/tyg som andas, är bekväm och mjuk mot huden. Tyget består av
             97 % Polyester och 3 % silver.
           </p>
@@ -68,7 +68,7 @@ const Features = forwardRef((props, ref) => {
             </div>
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
-                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 lg:text-4xl text-center lg:text-left'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 text-center lg:text-left'>
                   Testad
                 </h2>
                 <p className='text-gray-500 mt-4 text-lg'>
@@ -88,12 +88,13 @@ const Features = forwardRef((props, ref) => {
                   >
                     ISO 18184
                   </a>
-                  . EN 14683 är ett test för medicinska ansiktmasker som mäter
-                  hur väl materialet skyddar mot olika mikrober. Vår mask visade
-                  i detta test på ett skydd mot bakterier med ca 91%. ISO 18148
-                  undersöker å sin sida hur väl ett tyg skyddar mot virus. I
+                  . ISO 18148 undersöker hur väl ett tyg skyddar mot virus. I
                   detta test visade sig vår mask vara bäst i sin klass med ett
-                  skydd på 99.9%.
+                  skydd på{' '}
+                  <span className='font-semibold text-gray-800'>99.9%</span>. EN
+                  14683 är å sin sida ett test för medicinska ansiktmasker som
+                  mäter hur väl materialet skyddar mot mikrober. Vår mask visade
+                  i detta test på ett skydd mot bakterier med 91%.
                 </p>
               </div>
             </div>
@@ -154,14 +155,14 @@ const Features = forwardRef((props, ref) => {
             </div>
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
-                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 lg:text-4xl text-center lg:text-left'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 text-center lg:text-left'>
                   Komfort
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
-                  Tillverkad av ett mjukt tyg som är behaglig att andas genom
-                  och skön att bära. De justerbara öronöglorna gör det möjligt
-                  att justera övre och nedre delen av masken separat för en
-                  perfekt anpassad passform.
+                  Silvershield är tillverkad av ett mjukt tyg som är behaglig
+                  att andas genom och skön att bära. De justerbara öronöglorna
+                  gör det möjligt att justera övre och nedre delen av masken
+                  separat för en perfekt anpassad passform.
                 </p>
               </div>
             </div>
@@ -222,11 +223,11 @@ const Features = forwardRef((props, ref) => {
             </div>
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
-                <h2 className='mt-2 text-2xl leading-8 font-bold tracking-tight text-gray-800 sm:text-4xl text-center lg:text-left'>
+                <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 text-center lg:text-left'>
                   Hållbar och ekonomisk
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
-                  Vår produkt kan tvättas upp till 60 gånger. Att investera i en
+                  Vår mask kan tvättas upp till 60 gånger. Att investera i en
                   tvättbar ansiktsmask av hög kvalitet istället för att använda
                   engångs-masker hjälper till att minska avfallet. Det är
                   dessutom skonsamt mot plånboken.

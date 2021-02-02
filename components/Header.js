@@ -24,7 +24,7 @@ export default function Header() {
                   <a>Produkt</a>
                 </NavLink>
                 <NavLink href='/om-oss'>
-                  <a>Om Oss</a>
+                  <a>Om</a>
                 </NavLink>
                 <NavLink href='/kontakt'>
                   <a>Kontakt</a>

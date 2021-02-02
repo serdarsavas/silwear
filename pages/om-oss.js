@@ -127,21 +127,21 @@ export default function Contact() {
                   Om vårt företag
                 </span>
               </h1>
-              <p className='mt-8 text-xl text-gray-500 leading-8'>
+              <p className='mt-8 prose-lg text-gray-500 leading-8'>
                 Vi startade Silvershield med idén att skapa en produkt som
-                skyddar, är bekväm och hållbar. Vår ambition är att
-                tillhandahålla en högkvalitativ produkt för våra kunder som
-                också är miljövänlig. Våra masker innehåller silver vars
+                skyddar, är bekväm och hållbar. Vårt bidrag till marknaden är
+                att vi tillhandahåller en högkvalitativ produkt för våra kunder
+                som också är miljövänlig. Våra masker innehåller silver vars
                 egenskaper framgångsrikt har testats i laboratorier mot
                 bakterier och virus.
               </p>
             </div>
             <div className='mt-6 prose prose-lg text-gray-500 mx-auto'>
-              <h2 className='text-xlfont-semibold'>
+              <h2 className='font-semibold'>
                 Skyddar, bekväm, hållbar och ekonomisk
               </h2>
               <p>
-                De tre pelarna i Silvershield är att den: Skyddar, är bekväm och
+                De tre pelarna i Silvershield är att den skyddar, är bekväm och
                 hållbar.
               </p>
               <p>
@@ -205,7 +205,7 @@ export default function Contact() {
           </span>
           <div className='mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5'>
             <Link href='kontakt'>
-              <a className='px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-700 bg-gray-50 hover:bg-gray-100'>
+              <a className='px-6 py-3 border border-transparent text-base font-medium rounded-md border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-600 hover:to-blue-800'>
                 Kontakt
               </a>
             </Link>
