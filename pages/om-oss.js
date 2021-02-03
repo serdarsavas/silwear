@@ -9,7 +9,15 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>SilverShield</title>
+        <meta
+          name='description'
+          content='SilverShield - Läs mer om oss och vårt antivirala och antibakteriella munskydd.'
+        />
+        <meta
+          name='keywords'
+          content='munskydd, virus, ansiktsmask, antibakteriell, bekväm, tygmask, tyg, skydd, skyddar, medicinskt munskydd'
+        />
+        <title>SilverShield - Om Vårt Företag</title>
       </Head>
       <Header />
       <main>
@@ -152,9 +160,9 @@ export default function Contact() {
                 som effektivt skyddar mot virus och bakterier.
               </p>
               <p>
-                <strong>Komfort</strong> är den andra av våra pelare, eftersom
-                vi vill att våra kunder ska ha en kvalitetsprodukt som skyddar
-                men också känns bekväm.
+                <strong>Bekvämlighet</strong> är den andra av våra pelare,
+                eftersom vi vill att våra kunder ska ha en kvalitetsprodukt som
+                skyddar men också känns bekväm.
               </p>
               <p>
                 Den tredje pelaren är <strong>hållbarhet</strong>. Våra masker
@@ -181,7 +189,7 @@ export default function Contact() {
               <p>
                 Historiskt sett har silver i stor utsträckning använts för sina
                 antibakteriella egenskaper. Sedan romartiden har silver använts
-                för sin antimikrobiella, antibakteriella verkan.Forskare har i
+                för sin antimikrobiella, antibakteriella verkan. Forskare har i
                 studier påvisat att silver skyddar mot en rad bakterier, svampar
                 och dessutom har det i ett antal av dessa föreslagits att silver
                 kan verka mot ett antal virus.

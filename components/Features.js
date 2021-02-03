@@ -156,7 +156,7 @@ const Features = forwardRef((props, ref) => {
             <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
                 <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 text-center lg:text-left'>
-                  Komfort
+                  Bekväm
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
                   Silvershield är tillverkad av ett mjukt tyg som är behaglig

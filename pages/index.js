@@ -22,7 +22,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SilverShield</title>
+        <meta
+          name='description'
+          content='SilverShield - ett medicinskt munskydd som skyddar mot virus och bakterier. Är gjord av mjukt tyg med silvertrådar, som är bekvämare än kirurgiska munskydd'
+        />
+        <meta
+          name='keywords'
+          content='munskydd, virus, ansiktsmask, antibakteriell, bekväm, tygmask, tyg, skydd, skyddar, medicinskt munskydd'
+        />
+        <title>SilverShield - Medicinskt Munskydd med Silver</title>
       </Head>
       <Header />
       <main className='relative'>

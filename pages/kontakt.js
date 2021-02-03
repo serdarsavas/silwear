@@ -8,7 +8,15 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>SilverShield</title>
+        <meta
+          name='description'
+          content='SilverShield - Kontakta oss för mer information om vårt munskydd'
+        />
+        <meta
+          name='keywords'
+          content='munskydd, virus, ansiktsmask, antibakteriell, bekväm, tygmask, tyg, skydd, skyddar, medicinskt munskydd'
+        />
+        <title>SilverShield - Kontakta Oss</title>
       </Head>
       <Header />
 
