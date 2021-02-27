@@ -10,7 +10,7 @@ const Features = forwardRef((props, ref) => {
             Silvershield
           </h2>
           <p className='text-xl text-gray-500 leading-8 mt-8'>
-            Våra masker innehåller silvertrådar som framgångsrikt har påvisats
+            Våra munskydd innehåller silvertrådar som framgångsrikt har påvisats
             skydda mot virus och bakterier. Vår produkt är av högkvalitativ
             textil/tyg som andas, är bekväm och mjuk mot huden. Tyget består av
             97 % Polyester och 3 % silver.
@@ -72,7 +72,7 @@ const Features = forwardRef((props, ref) => {
                   Testad
                 </h2>
                 <p className='text-gray-500 mt-4 text-lg'>
-                  Maskens CE-märkning vilar i huvudsak på två tester:{' '}
+                  Munskyddets CE-märkning vilar i huvudsak på två tester:{' '}
                   <a
                     href='https://www.sis.se/produkter/halso-och-sjukvard/sjukvardstextilier-allmant/ss-en-146832019/'
                     target='blank'
@@ -89,11 +89,11 @@ const Features = forwardRef((props, ref) => {
                     ISO 18184
                   </a>
                   . ISO 18148 undersöker hur väl ett tyg skyddar mot virus. I
-                  detta test visade sig vår mask vara bäst i sin klass med ett
-                  skydd på{' '}
+                  detta test visade sig vårt munskydd vara bäst i sin klass med
+                  ett skydd på{' '}
                   <span className='font-semibold text-gray-800'>99.9%</span>. EN
-                  14683 är å sin sida ett test för medicinska ansiktmasker som
-                  mäter hur väl materialet skyddar mot mikrober. Vår mask visade
+                  14683 är å sin sida ett test för medicinska munskydd som mäter
+                  hur väl materialet skyddar mot mikrober. Vårt munskydd visade
                   i detta test på ett skydd mot bakterier med 91%.
                 </p>
               </div>
@@ -161,7 +161,7 @@ const Features = forwardRef((props, ref) => {
                 <p className='text-gray-500 mt-4 text-xl'>
                   Silvershield är tillverkad av ett mjukt tyg som är behaglig
                   att andas genom och skön att bära. De justerbara öronöglorna
-                  gör det möjligt att justera övre och nedre delen av masken
+                  gör det möjligt att justera övre och nedre delen av munskyddet
                   separat för en perfekt anpassad passform.
                 </p>
               </div>
@@ -227,10 +227,10 @@ const Features = forwardRef((props, ref) => {
                   Hållbar och ekonomisk
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
-                  Vår mask kan tvättas upp till 60 gånger. Att investera i en
-                  tvättbar ansiktsmask av hög kvalitet istället för att använda
-                  engångs-masker hjälper till att minska avfallet. Det är
-                  dessutom skonsamt mot plånboken.
+                  SilverShield kan tvättas upp till 60 gånger. Att investera i
+                  ett tvättbart munskydd av hög kvalitet istället för att
+                  använda engångsmunskydd hjälper till att minska avfallet. Det
+                  är dessutom skonsamt mot plånboken.
                 </p>
               </div>
             </div>

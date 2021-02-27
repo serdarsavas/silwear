@@ -15,7 +15,7 @@ export default function Contact() {
         />
         <meta
           name='keywords'
-          content='munskydd, virus, ansiktsmask, antibakteriell, bekväm, tygmask, tyg, skydd, skyddar, medicinskt munskydd'
+          content='munskydd, virus, ansiktsmask, antibakteriell, bekväm, tygmask, tyg, skydd, skyddar, medicinskt munskydd, personlig skyddsutrustning, tvättbar, hållbar'
         />
         <title>SilverShield - Om Vårt Företag</title>
       </Head>
@@ -139,7 +139,7 @@ export default function Contact() {
                 Vi startade Silvershield med idén att skapa en produkt som
                 skyddar, är bekväm och hållbar. Vårt bidrag till marknaden är
                 att vi tillhandahåller en högkvalitativ produkt för våra kunder
-                som också är miljövänlig. Våra masker innehåller silver vars
+                som också är miljövänlig. Våra munskydd innehåller silver vars
                 egenskaper framgångsrikt har testats i laboratorier mot
                 bakterier och virus.
               </p>
@@ -153,10 +153,10 @@ export default function Contact() {
                 hållbar.
               </p>
               <p>
-                Vårt fokus med Silvershield-maskerna är <strong> skydd</strong>.
-                Våra masker har genomgått tester utförda av EU-ackrediterade
-                laboratorier. Dessa tester ligger till grund för maskens
-                CE-certifiering som intygar att det är en medicinsk ansiktsmask
+                Vårt fokus med Silvershield är <strong> skydd</strong>. Våra
+                munskydd har genomgått tester utförda av EU-ackrediterade
+                laboratorier. Dessa tester ligger till grund för munskyddets
+                CE-certifiering som intygar att det är ett medicinsk munskydd
                 som effektivt skyddar mot virus och bakterier.
               </p>
               <p>
@@ -165,27 +165,15 @@ export default function Contact() {
                 skyddar men också känns bekväm.
               </p>
               <p>
-                Den tredje pelaren är <strong>hållbarhet</strong>. Våra masker
+                Den tredje pelaren är <strong>hållbarhet</strong>. Våra munskydd
                 kan återanvändas och tvättas upp till 60 gånger. Det är viktigt
-                att överväga att engångsmasker endast kan bäras en (1) gång och
-                dess avfall bidrar till en belastning på miljön. Återanvändbara
-                masker är också ekonomiskt för konsumenten på lång sikt.
+                att överväga att engångsmunskydd endast kan bäras en (1) gång
+                och dess avfall bidrar till en belastning på miljön.
+                Återanvändbara munskydd är också ekonomiskt för konsumenten på
+                lång sikt.
               </p>
 
-              <figure>
-                <Image
-                  className='w-full rounded-lg'
-                  src='/images/hero-image.jpg'
-                  alt='Bild på fabrik'
-                  width={1310}
-                  height={873}
-                />
-                <figcaption>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur, quia!
-                </figcaption>
-              </figure>
-              <h2>Varför innehåller maskerna silver?</h2>
+              <h2>Varför innehåller munskydden silver?</h2>
               <p>
                 Historiskt sett har silver i stor utsträckning använts för sina
                 antibakteriella egenskaper. Sedan romartiden har silver använts
@@ -197,8 +185,8 @@ export default function Contact() {
               <p>
                 Denna uråldriga kunskap har vi tagit fasta på och testat i en
                 modern kontext. Genom rigorösa tester av EU-ackrediterade
-                laboratorier har vår mask visat sig vara effektiv mot virus och
-                bakterier.
+                laboratorier har SilverShield visat sig vara effektiv mot virus
+                och bakterier.
               </p>
             </div>
           </div>

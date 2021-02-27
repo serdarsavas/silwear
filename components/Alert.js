@@ -58,8 +58,8 @@ export function Alert({ success, isOpen }) {
               </h3>
               <div className='mt-2 text-sm text-green-700'>
                 <p>
-                  Vi tackar för att Ni kontaktar oss och vi ber om att få
-                  återkomma om senast 24 h.
+                  Tack för att Ni kontaktar oss. Vi ber om att få återkomma om
+                  senast 24 h.
                 </p>
                 <p>
                   Kontrollera gärna din skräppost så att vårt svar inte fastnat

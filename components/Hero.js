@@ -8,8 +8,8 @@ export default function Hero({ scrollToComponent, reference }) {
         <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
           <h1 className='text-4xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl'>
             <span className='block text-gray-700'>
-              <span className='text-blue-700'>SilverShield</span> - en medicinsk
-              mask för vardagen
+              <span className='text-blue-700'>SilverShield</span> - ett
+              medicinskt munskydd för vardagen
             </span>
           </h1>
           <p className='mt-3 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-5 md:max-w-3xl'>
@@ -37,7 +37,7 @@ export default function Hero({ scrollToComponent, reference }) {
       <div className='relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full'>
         <Image
           className='absolute inset-0 w-full h-full object-cover'
-          src='/images/hero-image.jpg'
+          src='/images/hero-jesper.jpg'
           alt='Face mask'
           layout='fill'
         />

@@ -29,6 +29,7 @@ export default function ContactForm() {
         fName: '',
         lName: '',
         email: '',
+        tel: '',
         message: ''
       });
       setAlertIsOpen(true);
@@ -67,18 +68,10 @@ export default function ContactForm() {
 
   return (
     <div className='w-3/5 mx-auto h-full'>
-      <div>
-        <h3 className='text-lg leading-6 font-medium text-gray-700'>
-          Vi ser fram emot att höra av dig
-        </h3>
-        <p className='mt-1 text-md text-gray-500'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eos
-          exercitationem aliquam minima commodi blanditiis ad enim natus saepe
-          quibusdam, nulla sit necessitatibus unde non rerum architecto quos
-          dolorem. Incidunt pariatur natus exercitationem fugit magni at sunt
-          cumque corrupti debitis dolorem, excepturi laudantium dolores soluta
-          dolorum inventore quod tempore ratione harum voluptas.
-        </p>
+      <div className='mb-6'>
+        <h1 className='text-4xl font-extrabold leading-6 font-medium text-gray-700'>
+          Kontakta oss här
+        </h1>
       </div>
       <Alert isOpen={alertIsOpen} success={status.success} />
       <form onSubmit={handleOnSubmit} className='pt-8 space-y-8 divide-y mb-16'>
@@ -122,7 +115,7 @@ export default function ContactForm() {
               </div>
             </div>
 
-            <div className='sm:col-span-4'>
+            <div className='sm:col-span-3'>
               <label
                 htmlFor='email'
                 className='block text-sm font-medium text-gray-700'
@@ -137,6 +130,23 @@ export default function ContactForm() {
                   onChange={handleOnChange}
                   value={inputs.email}
                   required
+                />
+              </div>
+            </div>
+            <div className='sm:col-span-3'>
+              <label
+                htmlFor='tel'
+                className='block text-sm font-medium text-gray-700'
+              >
+                Telefon
+              </label>
+              <div className='mt-1'>
+                <input
+                  id='tel'
+                  type='tel'
+                  className='shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md'
+                  onChange={handleOnChange}
+                  value={inputs.tel}
                 />
               </div>
             </div>
