@@ -166,7 +166,7 @@ export default function Contact() {
               </p>
               <p>
                 Den tredje pelaren är <strong>hållbarhet</strong>. Våra munskydd
-                kan återanvändas och tvättas upp till 60 gånger. Det är viktigt
+                kan återanvändas och tvättas upp till 50 gånger. Det är viktigt
                 att överväga att engångsmunskydd endast kan bäras en (1) gång
                 och dess avfall bidrar till en belastning på miljön.
                 Återanvändbara munskydd är också ekonomiskt för konsumenten på

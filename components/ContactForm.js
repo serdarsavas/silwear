@@ -68,10 +68,14 @@ export default function ContactForm() {
 
   return (
     <div className='w-3/5 mx-auto h-full'>
-      <div className='mb-6'>
-        <h1 className='text-4xl font-extrabold leading-6 font-medium text-gray-700'>
+      <div class='text-center mb-6'>
+        <h1 class='text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
           Kontakta oss här
         </h1>
+        <p class='mt-4 text-lg leading-6 text-gray-500'>
+          Vänligen kontakta oss om ni vill ha en offert eller har frågor kring
+          produkten.
+        </p>
       </div>
       <Alert isOpen={alertIsOpen} success={status.success} />
       <form onSubmit={handleOnSubmit} className='pt-8 space-y-8 divide-y mb-16'>

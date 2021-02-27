@@ -58,8 +58,8 @@ const Features = forwardRef((props, ref) => {
                 <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
                     className='rounded-lg shadow-lg object-cover object-center'
-                    src='/images/hero-image.jpg'
-                    alt='Whitney leaning against a railing on a downtown street'
+                    src='/images/cloth-close.jpg'
+                    alt='Close view of cloth'
                     width='600'
                     height='400'
                   />
@@ -145,8 +145,8 @@ const Features = forwardRef((props, ref) => {
                 <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
                     className='rounded-lg shadow-lg object-cover object-center'
-                    src='/images/hero-image.jpg'
-                    alt='Whitney leaning against a railing on a downtown street'
+                    src='/images/jesper-black.jpg'
+                    alt='Man wearing black face mask'
                     width='600'
                     height='400'
                   />
@@ -213,8 +213,8 @@ const Features = forwardRef((props, ref) => {
                 <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
                     className='rounded-lg shadow-lg object-cover object-center'
-                    src='/images/hero-image.jpg'
-                    alt='Whitney leaning against a railing on a downtown street'
+                    src='/images/white.jpg'
+                    alt='White face mask'
                     width='600'
                     height='400'
                   />
@@ -227,7 +227,7 @@ const Features = forwardRef((props, ref) => {
                   Hållbar och ekonomisk
                 </h2>
                 <p className='text-gray-500 mt-4 text-xl'>
-                  SilverShield kan tvättas upp till 60 gånger. Att investera i
+                  SilverShield kan tvättas upp till 50 gånger. Att investera i
                   ett tvättbart munskydd av hög kvalitet istället för att
                   använda engångsmunskydd hjälper till att minska avfallet. Det
                   är dessutom skonsamt mot plånboken.
