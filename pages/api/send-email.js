@@ -3,14 +3,17 @@ const sgMail = require('@sendgrid/mail');
 export default async function (req, res) {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-  const { fName, lName, email, message } = req.body;
+  const { fName, lName, email, message, tel } = req.body;
 
   const content = {
-    to: 'serdar.savas84@gmail.com',
+    to: 'info@silvershield.se',
     from: email,
-    subject: 'Mejl från Silvershield',
+    subject: `Silvershield - produktförfrågan`,
     text: message,
-    html: `Från ${fName} ${lName}:</br> <p>${message}</p>`
+    html: `<h3>Namn: ${fName} ${lName}</h3>
+           <h3>Email: ${email}</h3>
+           <h3>Tel: ${tel}</h3><br>
+           <p>Meddelande: ${message}</p>`
   };
 
   try {

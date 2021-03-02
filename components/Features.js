@@ -145,8 +145,8 @@ const Features = forwardRef((props, ref) => {
                 <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
                     className='rounded-lg shadow-lg object-cover object-center'
-                    src='/images/jesper-black.jpg'
-                    alt='Man wearing black face mask'
+                    src='/images/white-2.jpg'
+                    alt='White face mask'
                     width='600'
                     height='400'
                   />
