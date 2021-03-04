@@ -16,7 +16,7 @@ const Features = forwardRef((props, ref) => {
             97 % Polyester och 3 % silver.
           </p>
         </div>
-        <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+        <div className='relative max-w-7xl mx-auto py-8 md:py-16 px-4 sm:px-6 lg:px-8'>
           <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
           <div className='mx-auto text-base lg:max-w-none'></div>
           <div className='mt-8 flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-8'>
@@ -103,7 +103,7 @@ const Features = forwardRef((props, ref) => {
       </div>
 
       <div className='bg-white overflow-hidden'>
-        <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+        <div className='relative max-w-7xl mx-auto py-8 md:py-16 px-4 sm:px-6 lg:px-8'>
           <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
           <div className='mx-auto text-base lg:max-w-none'></div>
           <div className='mt-8 flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-8'>
@@ -171,7 +171,7 @@ const Features = forwardRef((props, ref) => {
       </div>
 
       <div className='bg-white overflow-hidden'>
-        <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+        <div className='relative max-w-7xl mx-auto py-8 md:py-16 px-4 sm:px-6 lg:px-8'>
           <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen'></div>
           <div className='mx-auto text-base lg:max-w-none'></div>
           <div className='mt-8 flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-8'>

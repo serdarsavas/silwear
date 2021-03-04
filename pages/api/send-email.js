@@ -3,7 +3,7 @@ const sgMail = require('@sendgrid/mail');
 export default async function (req, res) {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-  const { name, email, message, tel } = req.body;
+  const { name, email, message, phone } = req.body;
 
   const content = {
     to: 'info@silvershield.se',
@@ -12,7 +12,7 @@ export default async function (req, res) {
     text: message,
     html: `<h3>Namn: ${name}</h3>
            <h3>Email: ${email}</h3>
-           <h3>Tel: ${tel}</h3><br>
+           <h3>Tel: ${phone}</h3><br>
            <p>Meddelande: ${message}</p>`
   };
 
