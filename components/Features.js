@@ -5,7 +5,7 @@ const Features = forwardRef((props, ref) => {
   return (
     <>
       <div ref={ref} className='bg-white overflow-hidden'>
-        <div className='text-lg max-w-prose mx-auto pb-16 sm:pb-24 px-6'>
+        <div className='text-lg max-w-prose mx-auto pb-8 md:pb-16 sm:pb-24 px-6'>
           <h2 className='mt-2 text-4xl font-extrabold text-blue-700  tracking-tight text-center'>
             Silvershield
           </h2>
