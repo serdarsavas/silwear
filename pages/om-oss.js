@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import CTA from '../components/CTA';
 import Cookie from '../components/Cookie';
 
 export default function Contact() {
@@ -192,21 +193,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className='max-w-prose mx-auto py-16 px-6 sm:py-24 lg:px-8 flex items-baseline justify-between gap-8'>
-          <span className='text-3xl font-extrabold tracking-tight text-gray-800 sm:text-4xl'>
-            Vill du veta mer?
-            <Link href='kontakt'>
-              <a className='text-blue-700 block'> Kontakta oss gärna.</a>
-            </Link>
-          </span>
-          <div className='mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5'>
-            <Link href='kontakt'>
-              <a className='px-6 py-3 border border-transparent text-base font-medium rounded-md border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-600 hover:to-blue-800'>
-                Kontakt
-              </a>
-            </Link>
-          </div>
-        </div>
+        <CTA isHome={false} />
       </main>
       <Footer />
 

@@ -20,7 +20,7 @@ export default function Hero({ scrollToComponent, reference }) {
               onClick={() => scrollToComponent(reference)}
               className='rounded-md shadow'
             >
-              <span className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-600 hover:to-blue-800 md:py-4 md:text-lg md:px-10 cursor-pointer'>
+              <span className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-lg md:px-10 cursor-pointer'>
                 Läs mer
               </span>
             </div>

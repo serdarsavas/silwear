@@ -37,7 +37,7 @@ export default function Home() {
         <Hero scrollToComponent={scrollToComponent} reference={ref} />
         <Icons />
         <Features ref={ref} />
-        <CTA />
+        <CTA isHome={true} />
       </main>
       <div className='relative'>
         <Footer />
