@@ -9,13 +9,13 @@ export default function Footer() {
             <Image src='/logo.png' alt='Logo' width={70} height={86} />
           </div>
           <p className='text-center text-base text-gray-800 sm:ml-8 ml-2'>
-            &copy; 2020 <span className='text-blue-600'>SilverShield</span>
+            &copy; 2020 <span className='text-blue-700'>SilverShield</span>
           </p>
         </div>
         <div>
           <p className='text-gray-800'>
             Kontakt:{' '}
-            <a href='mailto:info@silvershield.com' className='text-blue-600'>
+            <a href='mailto:info@silvershield.com' className='text-blue-700'>
               info@silvershield.se
             </a>
           </p>
