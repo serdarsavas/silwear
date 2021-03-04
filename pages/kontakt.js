@@ -20,7 +20,7 @@ export default function Contact() {
       </Head>
       <Header />
 
-      <div className='mt-24 flex flex-col gap-8'>
+      <div className='flex flex-col gap-8'>
         <main>
           <ContactForm />
         </main>

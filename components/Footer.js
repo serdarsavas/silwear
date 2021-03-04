@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className='mt-10 sm:mt-0 bg-gray-50 '>
+    <footer className='sm:mt-0 bg-gray-50 border border-t'>
       <div className='flex justify-around space-x-6 py-12 items-center'>
         <div className='flex items-center'>
           <div className='ml-2'>
