@@ -10,9 +10,9 @@ export default function ContactForm2() {
   });
 
   const [inputs, setInputs] = useState({
-    fName: '',
-    lName: '',
+    name: '',
     email: '',
+    phone: '',
     message: ''
   });
 
@@ -28,7 +28,7 @@ export default function ContactForm2() {
       setInputs({
         name: '',
         email: '',
-        tel: '',
+        phone: '',
         message: ''
       });
       setAlertIsOpen(true);
@@ -142,13 +142,13 @@ export default function ContactForm2() {
               className='grid grid-cols-1 gap-y-6 mb-0'
             >
               <div>
-                <label htmlFor='full_name' className='sr-only'>
+                <label htmlFor='name' className='sr-only'>
                   Fullständigt namn
                 </label>
                 <input
                   type='text'
-                  name='full_name'
-                  id='full_name'
+                  name='name'
+                  id='name'
                   autoComplete='name'
                   className='block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-600 focus:border-blue-600 border-gray-300 rounded-md'
                   placeholder='Namn'

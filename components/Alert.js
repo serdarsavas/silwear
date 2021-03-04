@@ -2,7 +2,7 @@ export function Alert({ success, isOpen }) {
   const render = (success, isOpen) => {
     if (isOpen && !success) {
       return (
-        <div className='rounded-md bg-red-50 p-4 mt-8'>
+        <div className='rounded-md bg-red-50 p-4 mb-8'>
           <div className='flex'>
             <div className='flex-shrink-0'>
               <svg
@@ -35,7 +35,7 @@ export function Alert({ success, isOpen }) {
       );
     } else if (isOpen && success) {
       return (
-        <div className='rounded-md bg-green-50 p-4 mt-8'>
+        <div className='rounded-md bg-green-50 p-4 mb-8'>
           <div className='flex'>
             <div className='flex-shrink-0'>
               <svg
