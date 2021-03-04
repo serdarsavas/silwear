@@ -19,7 +19,7 @@ export default function CTA({ isHome }) {
             )}{' '}
             eller{' '}
             <Link href='kontakt'>
-              <a className='text-blue-700'>Hör av dig.</a>
+              <a className='text-blue-700'>Kontakta oss.</a>
             </Link>
           </span>
         </h2>
