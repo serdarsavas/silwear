@@ -100,7 +100,7 @@ export default function Icons() {
                     Hållbar och ekonomisk
                   </h3>
                   <p className='mt-5 text-base text-gray-500'>
-                    Håller länge då den är tvättbar. Kan tvättas upp till 60
+                    Håller länge då den är tvättbar. Kan tvättas upp till 50
                     gånger.
                   </p>
                 </div>
