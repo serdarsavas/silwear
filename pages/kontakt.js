@@ -14,8 +14,9 @@ export default function Contact() {
         />
         <meta
           name='keywords'
-          content='munskydd, virus, ansiktsmask, antibakteriell, bekväm, tygmask, tyg, skydd, skyddar, medicinskt munskydd'
+          content='munskydd, virus, ansiktsmask, bekväm, silver, medicinskt munskydd, tygmask, hållbar'
         />
+        <link rel='icon' href='/favicon.ico' />
         <title>SilverShield - Kontakta Oss</title>
       </Head>
       <Header />
