@@ -91,10 +91,10 @@ const Features = forwardRef((props, ref) => {
                   . ISO 18148 undersöker hur väl ett tyg skyddar mot virus. I
                   detta test visade sig vårt munskydd vara bäst i sin klass med
                   ett skydd på{' '}
-                  <span className='font-semibold text-gray-800'>99.9%</span>. EN
-                  14683 är å sin sida ett test för medicinska munskydd som mäter
-                  hur väl materialet skyddar mot mikrober. Vårt munskydd visade
-                  i detta test på ett skydd mot bakterier med 91%.
+                  <span className='font-semibold text-gray-800'>99.9%</span>.EN
+                  14683 är ett test för medicinska munskydd som mäter hur väl
+                  materialet skyddar mot mikrober. Vårt munskydd visade i detta
+                  test på ett skydd mot bakterier med 91%.
                 </p>
               </div>
             </div>
