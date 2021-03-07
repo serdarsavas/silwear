@@ -28,7 +28,7 @@ export default function Home() {
         />
         <meta
           name='keywords'
-          content='munskydd, virus, ansiktsmask, bekväm, silver, medicinskt munskydd, tygmask, hållbar'
+          content='munskydd, tyg, virus, ansiktsmask, silver, medicinsk, tygmask, hållbar, tvättbar'
         />
         <link rel='icon' href='/favicon.ico' />
         <title>SilverShield - Medicinskt Munskydd med Silver</title>
