@@ -7,38 +7,38 @@ export default function CTA({ isHome }) {
         <h2 className='text-4xl font-extrabold tracking-tight text-gray-800 sm:text-4xl'>
           <span className='block'>Vill du veta mer?</span>
           <span className='block'>
-            Läs mer under{' '}
+            Gå till{' '}
             {isHome ? (
               <Link href='om-oss'>
-                <a className='text-blue-700'>Om Oss</a>
+                <a className='text-blue-700 hover:text-blue-800'>Om Oss</a>
               </Link>
             ) : (
               <Link href='/'>
-                <a className='text-blue-700'>Produkt</a>
+                <a className='text-blue-700 hover:text-blue-800'>Produkt</a>
               </Link>
             )}{' '}
             eller{' '}
             <Link href='kontakt'>
-              <a className='text-blue-700'>Kontakta oss.</a>
+              <a className='text-blue-700 hover:text-blue-800'>Kontakta oss.</a>
             </Link>
           </span>
         </h2>
-        <div className='mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5'>
+        <div className='mt-6 flex'>
           {isHome ? (
             <Link href='om-oss'>
-              <a className='flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800'>
+              <a className='w-32 text-center py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800'>
                 Om Oss
               </a>
             </Link>
           ) : (
             <Link href='/'>
-              <a className='flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800'>
+              <a className='w-32 text-center py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800'>
                 SilverShield
               </a>
             </Link>
           )}
           <Link href='kontakt'>
-            <a className='flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-700 bg-gray-50 hover:bg-gray-100'>
+            <a className='w-32 text-center py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-700 bg-gray-50 hover:bg-gray-100 ml-4'>
               Kontakt
             </a>
           </Link>

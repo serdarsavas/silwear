@@ -7,7 +7,7 @@ export default function Hero({ scrollToComponent, reference }) {
       <div className='mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left'>
         <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
           <h1 className='text-4xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl'>
-            <span className='block text-gray-700'>
+            <span className='block text-gray-800'>
               <span className='text-blue-700'>SilverShield</span> - ett
               medicinskt munskydd för vardagen
             </span>
