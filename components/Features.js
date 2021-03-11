@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { forwardRef } from 'react';
+import Image from 'next/image'
+import { forwardRef } from 'react'
 
 const Features = forwardRef((props, ref) => {
   return (
@@ -66,7 +66,7 @@ const Features = forwardRef((props, ref) => {
                 </figure>
               </div>
             </div>
-            <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
+            <div className='mt-8 lg:mt-0 px-4 sm:px-8 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
                 <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 text-center lg:text-left'>
                   Testad
@@ -153,7 +153,7 @@ const Features = forwardRef((props, ref) => {
                 </figure>
               </div>
             </div>
-            <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
+            <div className='mt-8 lg:mt-0 px-4 sm:px-8 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
                 <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 text-center lg:text-left'>
                   Bekväm
@@ -221,7 +221,7 @@ const Features = forwardRef((props, ref) => {
                 </figure>
               </div>
             </div>
-            <div className='mt-8 lg:mt-0 w-3/4 mx-auto flex sm:items-center'>
+            <div className='mt-8 lg:mt-0 px-4 sm:px-8 mx-auto flex sm:items-center'>
               <div className='mt-5 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1'>
                 <h2 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 text-center lg:text-left'>
                   Hållbar och ekonomisk
@@ -238,7 +238,7 @@ const Features = forwardRef((props, ref) => {
         </div>
       </div>
     </>
-  );
-});
+  )
+})
 
-export default Features;
+export default Features
