@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import ContactForm from '../components/ContactForm';
-import Footer from '../components/Footer';
-import Cookie from '../components/Cookie';
-import Header from '../components/Header';
+import Head from 'next/head'
+import ContactForm from '../components/ContactForm'
+import Footer from '../components/Footer'
+import Cookie from '../components/Cookie'
+import Header from '../components/Header'
 
 export default function Contact() {
   return (
@@ -29,5 +29,5 @@ export default function Contact() {
       </div>
       <Cookie />
     </>
-  );
+  )
 }

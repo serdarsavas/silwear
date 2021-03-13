@@ -1,23 +1,23 @@
-import Head from 'next/head';
-import Features from '../components/Features';
-import { useRef } from 'react';
-import Hero from '../components/Hero';
-import Icons from '../components/Icons';
-import Footer from '../components/Footer';
-import Cookie from '../components/Cookie';
-import CTA from '../components/CTA';
-import Header from '../components/Header';
+import Head from 'next/head'
+import Features from '../components/Features'
+import { useRef } from 'react'
+import Hero from '../components/Hero'
+import Icons from '../components/Icons'
+import Footer from '../components/Footer'
+import Cookie from '../components/Cookie'
+import CTA from '../components/CTA'
+import Header from '../components/Header'
 
 export default function Home() {
-  const ref = useRef();
+  const ref = useRef()
 
   const scrollToComponent = ref => {
     ref.current.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
       inline: 'start'
-    });
-  };
+    })
+  }
 
   return (
     <>
@@ -45,5 +45,5 @@ export default function Home() {
         <Cookie />
       </div>
     </>
-  );
+  )
 }

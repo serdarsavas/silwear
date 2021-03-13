@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { Alert } from './Alert';
+import React, { useState } from 'react'
+import Link from 'next/link'
+import { Alert } from './Alert'
 
-export default function ContactForm2() {
+export default function ContactForm() {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
     success: null
-  });
+  })
 
   const [inputs, setInputs] = useState({
     name: '',
     email: '',
     phone: '',
     message: ''
-  });
+  })
 
-  const [alertIsOpen, setAlertIsOpen] = useState(false);
+  const [alertIsOpen, setAlertIsOpen] = useState(false)
 
   const handleResponse = status => {
     if (status === 200) {
@@ -24,46 +24,46 @@ export default function ContactForm2() {
         submitted: true,
         submitting: false,
         success: true
-      });
+      })
       setInputs({
         name: '',
         email: '',
         phone: '',
         message: ''
-      });
-      setAlertIsOpen(true);
+      })
+      setAlertIsOpen(true)
     } else {
       setStatus({
         success: false
-      });
-      setAlertIsOpen(true);
+      })
+      setAlertIsOpen(true)
     }
-  };
+  }
 
   const handleOnChange = e => {
-    e.persist();
+    e.persist()
     setInputs(prev => ({
       ...prev,
       [e.target.id]: e.target.value
-    }));
+    }))
     setStatus({
       submitted: false,
       submitting: false,
       success: null
-    });
-    setAlertIsOpen(false);
-  };
+    })
+    setAlertIsOpen(false)
+  }
 
   const handleOnSubmit = async e => {
-    e.preventDefault();
-    setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
+    e.preventDefault()
+    setStatus(prevStatus => ({ ...prevStatus, submitting: true }))
     const res = await fetch('/api/send-email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(inputs)
-    });
-    handleResponse(res.status);
-  };
+    })
+    handleResponse(res.status)
+  }
 
   return (
     <div className='relative bg-white'>
@@ -226,5 +226,5 @@ export default function ContactForm2() {
         </div>
       </div>
     </div>
-  );
+  )
 }
