@@ -15,11 +15,12 @@
     "autoprefixer": "^10.1.0",
     "framer-motion": "^3.2.1",
     "js-cookie": "^2.2.1",
-    "next": "10.0.3",
+    "next": "^10.0.8",
     "node-fetch": "^2.6.1",
     "postcss": "^8.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-hook-form": "^6.15.4",
     "tailwindcss": "^2.0.2"
   }
 }

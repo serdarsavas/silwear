@@ -6,7 +6,7 @@ export default async function (req, res) {
   const { name, email, message, phone } = req.body
 
   const content = {
-    to: 'info@silvershield.se',
+    to: ['info@silvershield.se', 'serdar.savas84@gmail.com'],
     from: email,
     subject: `Silvershield - produktförfrågan`,
     text: message,
@@ -18,7 +18,7 @@ export default async function (req, res) {
 
   try {
     console.log(content)
-    await sgMail.send(content)
+    await sgMail.sendMultiple(content)
     res.status(200).send('Message sent successfully')
   } catch (err) {
     console.log('Error', err.response.body.errors)
