@@ -7,13 +7,13 @@ export default async function (req, res) {
 
   const content = {
     to: ['info@silvershield.se', 'serdar.savas84@gmail.com'],
-    from: email,
+    from: `${name} <${email}>`,
     subject: `Silvershield - produktförfrågan`,
     text: message,
     html: `<h3>Namn: ${name}</h3>
            <h3>Email: ${email}</h3>
            <h3>Tel: ${phone}</h3><br>
-           <p>Meddelande: ${message}</p>`
+           <h4>Meddelande: ${message}</h4>`
   }
 
   try {
