@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Hero({ scrollToComponent, reference }) {
   return (
@@ -8,12 +8,13 @@ export default function Hero({ scrollToComponent, reference }) {
         <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
           <h1 className='text-4xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl'>
             <span className='block text-gray-800'>
-              <span className='text-blue-700'>SilverShield</span> - ett
-              medicinskt munskydd för vardagen
+              <span className='text-blue-700 block'>SilverShield</span>the new
+              normal
             </span>
           </h1>
           <p className='mt-3 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-5 md:max-w-3xl'>
-            CE-cerifierad för effektivt skydd mot virus och bakterier.
+            Munskyddet som är CE- certifierat för effektivt skydd mot virus och
+            bakterier.
           </p>
           <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
             <div
@@ -43,5 +44,5 @@ export default function Hero({ scrollToComponent, reference }) {
         />
       </div>
     </div>
-  );
+  )
 }
