@@ -13,7 +13,7 @@ export default function Hero({ scrollToComponent, reference }) {
             </span>
           </h1>
           <p className='mt-3 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-5 md:max-w-3xl'>
-            Munskyddet som är CE- certifierat för effektivt skydd mot virus och
+            Munskyddet som är CE-certifierat för effektivt skydd mot virus och
             bakterier.
           </p>
           <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
