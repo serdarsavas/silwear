@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CTA from '../components/CTA'
@@ -5,6 +7,18 @@ import CTA from '../components/CTA'
 export default function FAQ() {
   return (
     <>
+      <Head>
+        <meta
+          name='description'
+          content='SilverShield - Vanliga frågor. Skyddar SilverShield mot virus?'
+        />
+        <meta
+          name='keywords'
+          content='munskydd, tyg, virus, ansiktsmask, silver, medicinsk, tygmask, hållbar, tvätt, svart, tyg'
+        />
+        <link rel='icon' href='/favicon.ico' />
+        <title>SilverShield - Medicinskt Munskydd med Silver</title>
+      </Head>
       <Header />
       <div class='bg-gray-50'>
         <div class='w-5/6 mx-auto py-12 px-4 divide-y-2 divide-gray-200 sm:px-6 lg:py-16 lg:px-8'>
@@ -71,9 +85,9 @@ export default function FAQ() {
                 </dt>
                 <dd class='mt-2 md:mt-0 md:col-span-7'>
                   <p class='text-base text-gray-500'>
-                    Munskydd kan delas in i typ I och II om de har testats i
-                    enlighet med standarden EN 14683. Vårt munskydd är av Typ
-                    II, vilket har en högre filtreringsförmåga.
+                    Medicinska munskydd kan delas in i typ I och II om de har
+                    testats i enlighet med standarden EN 14683. Vårt munskydd är
+                    av typ II, vilket har en högre filtreringsförmåga.
                   </p>
                 </dd>
               </div>
@@ -97,9 +111,9 @@ export default function FAQ() {
                 </dt>
                 <dd class='mt-2 md:mt-0 md:col-span-7'>
                   <p class='text-base text-gray-500'>
-                    Till skillnad från andra engångsmunskydd som endast skyddar
-                    i ett par timmar kan du använda SilverShield flera timmar i
-                    sträck utan minskat skydd.
+                    Till skillnad från engångsmunskydd som endast skyddar i ett
+                    par timmar kan du använda SilverShield flera timmar i sträck
+                    utan minskat skydd.
                   </p>
                 </dd>
               </div>
@@ -113,7 +127,7 @@ export default function FAQ() {
                     Historiskt sett har silver i stor utsträckning använts för
                     sina antibakteriella egenskaper. SilverShield har i tester
                     utförda av EU-ackrediterade laboratorier visat sig ha både
-                    antibakteriella och antivirala egenskaper.
+                    antivirala och antibakteriella egenskaper.
                   </p>
                 </dd>
               </div>

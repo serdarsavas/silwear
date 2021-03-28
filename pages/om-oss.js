@@ -138,11 +138,14 @@ export default function Contact() {
                 </span>
               </h1>
               <p className='mt-8 prose-lg text-gray-500 leading-8'>
-                Vi startade Silvershield med idén att skapa en produkt som
-                skyddar, är bekväm och hållbar. Vårt bidrag till marknaden är
-                att vi tillhandahåller en högkvalitativ produkt för våra kunder
-                som också är miljövänlig. Våra munskydd innehåller silver vars
-                egenskaper framgångsrikt har testats i laboratorier mot
+                Vi utvecklade Silvershield med idén om att lansera en produkt
+                som skyddar, är bekväm och hållbar - en kombination av
+                egenskaper vi anser fram tills nu saknats på marknaden.
+              </p>
+              <p className='mt-8 prose-lg text-gray-500 leading-8'>
+                SilverShield är en högkvalitativ produkt som också är
+                miljövänlig. Våra munskydd innehåller silver vars egenskaper
+                framgångsrikt har testats i EU-ackrediterade laboratorier mot
                 bakterier och virus.
               </p>
             </div>
