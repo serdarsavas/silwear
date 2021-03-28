@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Head from 'next/head';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import CTA from '../components/CTA';
-import Cookie from '../components/Cookie';
+import Image from 'next/image'
+import Link from 'next/link'
+import Head from 'next/head'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import CTA from '../components/CTA'
+import Cookie from '../components/Cookie'
 
 export default function Contact() {
   return (
@@ -194,11 +194,11 @@ export default function Contact() {
           </div>
         </div>
 
-        <CTA isHome={false} />
+        <CTA />
       </main>
       <Footer />
 
       <Cookie />
     </>
-  );
+  )
 }

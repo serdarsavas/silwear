@@ -29,6 +29,9 @@ export default function Header() {
                 <NavLink href='/kontakt'>
                   <a>Kontakt</a>
                 </NavLink>
+                <NavLink href='/faq'>
+                  <a>FAQ</a>
+                </NavLink>
               </div>
             </div>
           </div>

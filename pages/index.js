@@ -15,7 +15,7 @@ export default function Home() {
     ref.current.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
-      inline: 'start'
+      inline: 'start',
     })
   }
 
@@ -38,7 +38,7 @@ export default function Home() {
         <Hero scrollToComponent={scrollToComponent} reference={ref} />
         <Icons />
         <Features ref={ref} />
-        <CTA isHome={true} />
+        <CTA />
       </main>
       <div className='relative'>
         <Footer />
