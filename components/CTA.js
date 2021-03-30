@@ -12,7 +12,7 @@ export default function CTA() {
           path2: '/kontakt',
           linkText1: 'Om',
           linkText2: 'Kontakt',
-          buttonText1: 'SilverShield',
+          buttonText1: 'Om oss',
           buttonText2: 'Kontakt',
         }
       case '/om-oss':
