@@ -6,14 +6,14 @@ export default function ContactForm() {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
-    success: null
+    success: null,
   })
 
   const [inputs, setInputs] = useState({
     name: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
   })
 
   const [alertIsOpen, setAlertIsOpen] = useState(false)
@@ -23,18 +23,18 @@ export default function ContactForm() {
       setStatus({
         submitted: true,
         submitting: false,
-        success: true
+        success: true,
       })
       setInputs({
         name: '',
         email: '',
         phone: '',
-        message: ''
+        message: '',
       })
       setAlertIsOpen(true)
     } else {
       setStatus({
-        success: false
+        success: false,
       })
       setAlertIsOpen(true)
     }
@@ -44,12 +44,12 @@ export default function ContactForm() {
     e.persist()
     setInputs(prev => ({
       ...prev,
-      [e.target.id]: e.target.value
+      [e.target.id]: e.target.value,
     }))
     setStatus({
       submitted: false,
       submitting: false,
-      success: null
+      success: null,
     })
     setAlertIsOpen(false)
   }
@@ -60,7 +60,7 @@ export default function ContactForm() {
     const res = await fetch('/api/send-email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(inputs)
+      body: JSON.stringify(inputs),
     })
     handleResponse(res.status)
   }
