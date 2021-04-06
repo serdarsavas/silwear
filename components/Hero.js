@@ -15,7 +15,7 @@ export default function Hero({ scrollToComponent, reference }) {
           <p className='mt-3 max-w-md mx-auto text-lg text-gray-600 sm:text-xl md:mt-5 md:max-w-3xl'>
             Munskydd ser ut att vara här för att stanna under en längre period.
             SilverShield med sina egenskaper kommer spela en viktig roll i
-            kampen för en friskare värld
+            kampen för en friskare värld.
           </p>
           <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
             <div
