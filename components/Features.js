@@ -55,10 +55,10 @@ const Features = forwardRef((props, ref) => {
                 />
               </svg>
               <div className='relative text-base mx-auto lg:max-w-none'>
-                <figure className='aspect-h-7 lg:aspect-none'>
+                <figure className='aspect-h-7 shadow-lg lg:aspect-none rounded-lg object-cover object-center  border border-gray-100'>
                   <Image
-                    className='rounded-lg shadow-lg object-cover object-center'
-                    src='/images/cloth-close.jpg'
+                    className=''
+                    src='/images/black-white-lying.jpg'
                     alt='Close view of cloth'
                     width='600'
                     height='400'
@@ -142,10 +142,9 @@ const Features = forwardRef((props, ref) => {
                 />
               </svg>
               <div className='relative text-base mx-auto lg:max-w-none'>
-                <figure className='aspect-h-7 lg:aspect-none'>
+                <figure className='aspect-h-7 lg:aspect-none shadow-lg rounded-lg object-cover object-center border border-gray-100'>
                   <Image
-                    className='rounded-lg shadow-lg object-cover object-center'
-                    src='/images/white-2.jpg'
+                    src='/images/black-white-sides.jpg'
                     alt='White face mask'
                     width='600'
                     height='400'
@@ -210,10 +209,10 @@ const Features = forwardRef((props, ref) => {
                 />
               </svg>
               <div className='relative text-base mx-auto lg:max-w-none'>
-                <figure className='aspect-h-7 lg:aspect-none'>
+                <figure className='aspect-h-7 lg:aspect-none rounded-lg shadow-lg object-cover object-center border border-gray-100'>
                   <Image
-                    className='rounded-lg shadow-lg object-cover object-center'
-                    src='/images/white.jpg'
+                    className=''
+                    src='/images/black-white-front.jpg'
                     alt='White face mask'
                     width='600'
                     height='400'
