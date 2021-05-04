@@ -55,9 +55,9 @@ const Features = forwardRef((props, ref) => {
                 />
               </svg>
               <div className='relative text-base mx-auto lg:max-w-none'>
-                <figure className='aspect-h-7 shadow-lg lg:aspect-none rounded-lg object-cover object-center  border border-gray-100'>
+                <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
-                    className=''
+                    className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/skyddar-min.jpg'
                     alt='Close view of cloth'
                     width='600'
@@ -142,8 +142,9 @@ const Features = forwardRef((props, ref) => {
                 />
               </svg>
               <div className='relative text-base mx-auto lg:max-w-none'>
-                <figure className='aspect-h-7 lg:aspect-none shadow-lg rounded-lg object-cover object-center border border-gray-100'>
+                <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
+                    className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/bekvam-min.jpg'
                     alt='White face mask'
                     width='600'
@@ -209,9 +210,9 @@ const Features = forwardRef((props, ref) => {
                 />
               </svg>
               <div className='relative text-base mx-auto lg:max-w-none'>
-                <figure className='aspect-h-7 lg:aspect-none rounded-lg shadow-lg object-cover object-center border border-gray-100'>
+                <figure className='aspect-h-7 lg:aspect-none'>
                   <Image
-                    className=''
+                    className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/hallbar-min.jpg'
                     alt='White face mask'
                     width='600'
