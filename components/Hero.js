@@ -42,6 +42,7 @@ export default function Hero({ scrollToComponent, reference }) {
           src='/images/jesper-hero.jpg'
           alt='Face mask'
           layout='fill'
+          priority={true}
         />
       </div>
     </div>

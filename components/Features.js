@@ -60,6 +60,7 @@ const Features = forwardRef((props, ref) => {
                     className='rounded-lg shadow-lg object-cover object-center'
                     src='/images/skyddar-min.jpg'
                     alt='Close view of cloth'
+                    priority={true}
                     width='600'
                     height='400'
                   />
@@ -149,6 +150,7 @@ const Features = forwardRef((props, ref) => {
                     alt='White face mask'
                     width='600'
                     height='400'
+                    priority={true}
                   />
                 </figure>
               </div>
@@ -217,6 +219,7 @@ const Features = forwardRef((props, ref) => {
                     alt='White face mask'
                     width='600'
                     height='400'
+                    priority={true}
                   />
                 </figure>
               </div>
