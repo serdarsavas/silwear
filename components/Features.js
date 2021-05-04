@@ -58,7 +58,7 @@ const Features = forwardRef((props, ref) => {
                 <figure className='aspect-h-7 shadow-lg lg:aspect-none rounded-lg object-cover object-center  border border-gray-100'>
                   <Image
                     className=''
-                    src='/images/black-white-lying.jpg'
+                    src='/images/skyddar-min.jpg'
                     alt='Close view of cloth'
                     width='600'
                     height='400'
@@ -144,7 +144,7 @@ const Features = forwardRef((props, ref) => {
               <div className='relative text-base mx-auto lg:max-w-none'>
                 <figure className='aspect-h-7 lg:aspect-none shadow-lg rounded-lg object-cover object-center border border-gray-100'>
                   <Image
-                    src='/images/black-white-sides.jpg'
+                    src='/images/bekvam-min.jpg'
                     alt='White face mask'
                     width='600'
                     height='400'
@@ -212,7 +212,7 @@ const Features = forwardRef((props, ref) => {
                 <figure className='aspect-h-7 lg:aspect-none rounded-lg shadow-lg object-cover object-center border border-gray-100'>
                   <Image
                     className=''
-                    src='/images/black-white-front.jpg'
+                    src='/images/hallbar-min.jpg'
                     alt='White face mask'
                     width='600'
                     height='400'
